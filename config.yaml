@@ -1,0 +1,32 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: "Benedikt's digital home"
+theme: "toha"
+
+# Manage languages
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  de:
+    languageName: Deutsch
+    title: "Benedikts persönliche Website"
+    weight: 1
+
+# Control of TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+params:
+  enableBlogPost: true
+  enableTOC: true
+  background: "images/index_dark.png"
+  newsletter:
+    enable: false
+
+
+ 

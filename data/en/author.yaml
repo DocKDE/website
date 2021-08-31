@@ -1,0 +1,13 @@
+name: "Benedikt M. Flöser"
+nickname: "Benedikt"
+
+greeting: "Hi there! I'm"
+image: "images/avatar_sketch.png"
+contactInfo:
+  email: "bfloeser@posteo.de"
+
+summary:
+  - Computational Chemist
+  - Hobby Developer
+  - Free Software Enthusiast
+  - Online Privacy Advocate

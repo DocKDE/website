@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: "Max-Planck-Institute for Chemical Energy Conversion"
+    url: "https://www.cec.mpg.de/"
+    location: Mülheim a.d. Ruhr
+    # company overview
+
+  positions:
+  - designation: Postdoc
+    start: 05/2020
+    responsibilities:
+    - Design and develop XYZ tool for ABC task
+    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Lead backend team.
+
+- company:
+    name: University of Kiel
+    url: "https://www.ac.uni-kiel.de/de/tuczek"
+    location: Kiel
+  positions:
+  - designation: PhD Student
+    start: 10/2014
+    end: 04/2020
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.

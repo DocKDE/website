@@ -1,0 +1,16 @@
+section:
+  name: Skills
+  id: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: "Chemistry software"
+  summary: "Extensive experience with a wide array of quantum chemistry codes (see CV) and analysis as well as visualization software such as PyMol, VMD, Avogadro, Chemcraft etc."
+
+- name: Coding
+  summary: "Experience with Rust, Python and bash for various small to medium-sized personal and work-related projects. I am familiar with git as versioning system."
+
+- name: Operating Systems
+  summary: "Familiar with Windows and Linux as main operating systems with the latter being my preferred daily driver for the last few years. I have extensive experience with various Linux distributions and their various strengths and weaknesses."
