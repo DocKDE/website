@@ -24,9 +24,21 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "bfloeser@posteo.de"
 
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://fosstodon.org/@theDoctor"
+
+- name: Codeberg
+  icon: "fab fa-git-alt"
+  url: "https://codeberg.org/theDoctor"
+
+- name: GitLab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.gwdg.de/benedikt.floeser"
+
 - name: Github
   icon: "fab fa-github"
-  url: "https://github.com/hugo-toha/toha"
+  url: "https://github.com/DocKDE"
 
 softSkills:
 - name: Autodidact
@@ -44,6 +56,6 @@ softSkills:
 - name: Eager
   percentage: 85
   color: pink
-- name: Awesome
+- name: Fast Learner
   percentage: 85
   color: black

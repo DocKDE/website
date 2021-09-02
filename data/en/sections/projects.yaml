@@ -232,7 +232,7 @@ projects:
   
 
 # Security
-- name: keepassXC
+- name: KeePassXC
   role: Password Manager
   logo: /images/sections/software/keepass.svg
   summary: Offers generation of secure passwords, autotyping, integration with browsers and ssh agents and more. All passwords are placed in a local file that has to be synced manually if desired.

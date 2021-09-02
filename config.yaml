@@ -1,6 +1,6 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: "Benedikt's digital home"
+title: "My digital home"
 theme: "toha"
 
 # Manage languages
@@ -11,7 +11,7 @@ languages:
     weight: 1
   de:
     languageName: Deutsch
-    title: "Benedikts persönliche Website"
+    title: "Meine persönliche Website"
     weight: 1
 
 # Control of TOC depth
@@ -22,11 +22,34 @@ markup:
     ordered: false
 
 params:
+  background: "images/site/scotdark.png"
+
+  logo:
+    main: "images/site/logo.png"
+    inverted: "images/site/logolite.png"
+    favicon: "images/site/logolite.png"
+
   enableBlogPost: true
   enableTOC: true
-  background: "images/index_dark.png"
+  enableTags: true
+
   newsletter:
     enable: false
+  
+  footer:
+    enable: true
+    template: footer.html
+    navigation:
+      enable: false
+    
+    contactMe:
+      enable: false
+    
+    credentials:
+      enable: true
+    
+    disclaimer:
+      enable: true
 
 
  

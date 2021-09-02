@@ -1,8 +1,7 @@
 name: "Benedikt M. Flöser"
 nickname: "Benedikt"
-
 greeting: "Hi there! I'm"
-image: "images/avatar_sketch.png"
+image: "images/site/avatar_sketch.png"
 contactInfo:
   email: "bfloeser@posteo.de"
 

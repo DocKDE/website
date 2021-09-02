@@ -1,7 +1,8 @@
 ---
 title: "Introduction"
-date: 2020-06-08T08:06:25+06:00
-description: Introduction to Sample Post
+date: 2021-09-01
+description: Introduction
+hero: start.jpg
 menu:
   sidebar:
     name: Introduction
@@ -11,8 +12,14 @@ tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---
 
-Greeting! This is an introduction post. This post tests the followings:
+### What this is
 
-- Hero image is in the same directory as the post.
-- This post should be at top of the sidebar.
-- Post author should be the same as specified in `author.yaml` file.
+This blog and all the posts in it first and foremost reflect my thoughts and experiences on various topics. Most of them will be concerned with the software I try out and use since I'm passionate about that and need a place to share it. 
+
+However, I'm also vocal about privacy, especially online. If some of my posts seem like doomsaying or fear-mongering, please forgive me but I do believe there is reason for concern when it comes to this.
+
+If you have any suggestions or questions, feel free to reach out to me in any of the ways available on this site.
+
+### What this isn't
+
+This is not meant as a space for me to preach anything to anyone. If what you read here is interesting for you, that's great. If not, that's also fine. But please be aware that this page does not exist to convince you of anything and there's a reason why this site does not feature a comment section or the possibility for external people to post. 

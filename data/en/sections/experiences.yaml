@@ -20,9 +20,9 @@ experiences:
   - designation: Postdoc
     start: 05/2020
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+      - Planning and execution of quantum chemical calculations
+      - Coordination with coworkers and collaborators concerning planning and analysis of experiments and calculations in synergy
+      - Presentation and discussion of results with coworkers and collaborators in regular symposiums
 
 - company:
     name: University of Kiel
@@ -33,6 +33,7 @@ experiences:
     start: 10/2014
     end: 04/2020
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+      - Planning and execution of quantum chemical calculations
+      - Coordination with coworkers and collaborators concerning planning and analysis of experiments and calculations in synergy
+      - Presentation and discussion of results with coworkers and collaborators in regular symposiums
+      - Writing and publication of results in scientific journals
