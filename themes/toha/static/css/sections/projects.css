@@ -1,5 +1,4 @@
 .projects-section .card .card-header {
-  /* font-family: "Fira Code"; */
   background-color: #f9fafc;
   padding: 0.7rem;
   padding-bottom: 0rem;
@@ -11,7 +10,7 @@
 }
 
 .card .card-header .sub-title span:nth-child(1) {
-  font-family: "Fira Code";
+  font-family: "Overpass Mono";
   float: left;
 }
 .card .card-header .sub-title span:nth-child(2) {
