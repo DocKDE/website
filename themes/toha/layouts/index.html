@@ -29,6 +29,11 @@
     <!--================= custom style overrides =========================-->
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
     <link rel="stylesheet" href="css/all.min.css" > 
+
+    <!--================= Add Google fonts if fonts param not given in config =========================-->
+    <!-- {{ if not site.Params.fonts }}
+      <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+    {{ end }} -->
     
     <!-- Add Google Analytics if enabled in configuration -->
     {{ if site.GoogleAnalytics }}

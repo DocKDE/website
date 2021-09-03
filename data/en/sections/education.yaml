@@ -1,0 +1,60 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: Ph.D in Computational Chemistry
+  icon: fa-graduation-cap
+  timeframe: 2014-2020
+  institution:
+    name: University of Kiel
+    url: https://www.ac.uni-kiel.de/de/tuczek
+  finalThesis:
+    name: Quantum Chemical Investigation of Functional Molecules
+  grade:
+    scale: Grade
+    achieved: Magna cum laude
+  publications:
+  - title: Detailed Pair Natural Orbital-Based Coupled Cluster Studies of Spin Crossover Energetics
+    url: https://pubs.acs.org/doi/10.1021/acs.jctc.9b01109
+  - title: Influence of a Metal Substrate on Small-Molecule Activation Mediated by a Surface-Adsorbed Complex
+    url: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.201800911
+  - title: "Tyrosinase Model Systems Supported by Pyrazolylmethylpyridine Ligands: Electronic and Steric Factors Influencing the Catalytic Activity and Impact of Complex Equilibria in Solution"
+    url: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/ejic.201800319
+  - title: "Synthetic nitrogen fixation with mononuclear molybdenum complexes: Electronic-structural and mechanistic insights from DFT"
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0010854516303526?via%3Dihub
+- name: M.Sc. in Chemistry
+  icon: fas fa-university
+  timeframe: 2012-2014
+  institution:
+    name: University of Kiel
+    url: https://www.uni-kiel.de/de/
+  grade:
+    scale: Grade
+    achieved: 1.6
+  finalThesis:
+    name: Synthese und Charakterisierung von Spin-Crossover-Verbindungen
+- name: B.Sc. in Chemsitry
+  icon: fas fa-university
+  timeframe: 2009-2012
+  institution:
+    name: University of Kiel
+    url: https://www.uni-kiel.de/de/
+  finalThesis:
+    name: Synthese und Charakterisierung von LD-CISSS-Komplexen
+  grade:
+    scale: Grade
+    achieved: 1.8
+- name: Abitur
+  icon: fas fa-school
+  timeframe: 2000-2009
+  institution:
+    name: Hansa-Gymnasium Hamburg-Bergedorf
+    url: https://www.hansa-gymnasium.de/home.html
+  grade:
+    scale: Grade
+    achieved: 1.6

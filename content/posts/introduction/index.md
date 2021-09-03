@@ -2,7 +2,7 @@
 title: "Introduction"
 date: 2021-09-01
 description: Introduction
-hero: start.jpg
+hero: hello.jpg
 menu:
   sidebar:
     name: Introduction
@@ -15,7 +15,7 @@ categories: ["Basic"]
 ### Hello world
 
 Dear reader,
-I finally made it! Although I have basically no experience with web development here is
+I finally made it! Although I have basically no experience with web development, here is
 my personal website. I'm quite excited about this and it's going to be interesting to see
 where it takes me. Of course I'd like to take all the credit but the truth is that there 
 are software and services out there that make this kind of endeavour relatively easy and
@@ -23,6 +23,8 @@ painless.
 With that said, a big shout-out to [Hugo](https://gohugo.io) and the creator
 of this particular theme, [Toha](https://github.com/hugo-toha/toha)!  
 Enjoy!
+
+P.S.: No, the guy in the picture is not me, sorry!
 
 ### What this is
 

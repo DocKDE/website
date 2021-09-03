@@ -9,7 +9,7 @@ skills:
 - name: Computational Chemistry
   summary: Several years of experience with DFT, semiempirical and wave function methods for calculation of geometric and electronic structures of small and medium sized transition metal complexes as well as proteins. Focus on calculation of spectroscopic properties such as parameters for vibrational, optical, X-ray, EPR, NMR and Mößbauer spectroscopy.
 
-- name: "Chemistry software"
+- name: Chemistry software
   summary: Extensive experience with a wide array of computional chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analysis as well as visualization software (PyMol, VMD, Avogadro, Chemcraft etc.).
 
 - name: Coding

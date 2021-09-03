@@ -23,6 +23,7 @@ markup:
 
 params:
   background: "images/site/scotdark.png"
+  # fonts: true
 
   logo:
     main: "images/site/logo.png"
