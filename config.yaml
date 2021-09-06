@@ -30,7 +30,7 @@ params:
     inverted: "images/site/logolite.png"
     favicon: "images/site/logolite.png"
 
-  enableBlogPost: false
+  enableBlogPost: true
   enableTOC: true
   enableTags: true
 

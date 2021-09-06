@@ -1,7 +1,7 @@
 section:
   name: Software
   id: projects
-  enable: false
+  enable: true
   weight: 5
   showOnNavbar: true
 
