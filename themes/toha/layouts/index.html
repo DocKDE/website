@@ -35,6 +35,9 @@
       <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
     {{ end }} -->
     
+    <!--================= Add security stuff =========================-->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta name="referrer" content="no-referrer">
     <!-- Add Google Analytics if enabled in configuration -->
     {{ if site.GoogleAnalytics }}
         <!-- Google Analytics v3  ID -->
