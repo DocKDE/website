@@ -65,7 +65,7 @@ trust companies like Google and Microsoft to keep my whole online life safe?
 
 #### The slippery slope
 
-This was how I started to think about this key concept on privacy and security: *trust*. The key question is then:
+This was how I started to think about this key concept of privacy and security: *trust*. The key question is then:
 > **To whom can you entrust your data?**
 
 This is how I started down the rabbit hole. Ever since then I've looked for answers to 
@@ -78,7 +78,7 @@ first place to feel safe.
 #### My bottom line
 
 Obviously, there's a lot that could be said about this topic but my personal bottom line (so far) is this:
-- Absolute digital data safety does not exist.
+- Absolute digital data safety or privacy does not exist.
 - Promises about trustworthiness are a dime a dozen (*"We care about your data"*).
 - Transparency is key.
   - Transparency reports or similar help.
@@ -92,5 +92,5 @@ Obviously, there's a lot that could be said about this topic but my personal bot
   - File syncing
 - When in doubt, don't use it.
 
-As of now, I'm happy with the place I'm in, privacy-wise but I'm also curious what the 
+As of now, I'm happy with the place I'm in, privacy-wise, but I'm also curious what the 
 future will bring. We'll see.

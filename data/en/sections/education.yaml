@@ -37,7 +37,7 @@ degrees:
     scale: Grade
     achieved: 1.6
   finalThesis:
-    name: Synthese und Charakterisierung von Spin-Crossover-Verbindungen
+    name: Modellierung, Synthese und Charakterisierung von Spin-Crossover-Verbindungen
 - name: B.Sc. in Chemsitry
   icon: fas fa-university
   timeframe: 2009-2012

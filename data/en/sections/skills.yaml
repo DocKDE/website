@@ -13,11 +13,11 @@ skills:
   summary: Extensive experience with a wide array of computional chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analysis as well as visualization software (PyMol, VMD, Avogadro, Chemcraft etc.).
 
 - name: Coding
-  summary: Experience with Rust, Python and bash for various small to medium-sized personal and work-related projects. I am familiar with git as versioning system and use it in conjunction with several git hosting platforms.
+  summary: Experience with Rust, Python and bash for various small to medium-sized projects. I am familiar with git as versioning system and use it in conjunction with several git hosting platforms. I am also one of the maintainers of a work-related git software repository.
 
 - name: Operating Systems
   summary: Familiar with Windows and Linux as main operating systems with the latter being my preferred daily driver for the last few years. I have used many different Linux distributions and am aquainted with their characteristics.
 
 - name: System Administration
-  summary: Experience with hosting and administrating several home servers for file storage, communication platforms, network traffic filtering and more.
+  summary: Several years of hosting and administrating several home servers for family file storage, communication platforms, network traffic filtering and more. As such I'm familiar with manual configuration and command line workflows.
 
