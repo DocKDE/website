@@ -37,7 +37,7 @@
     
     <!--================= Add security stuff =========================-->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; script-src-elem 'self'; script-src-attr 'self'; style-src 'unsafe-inline'; style-src-elem 'unsafe-inline'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self'; frame-ancestors 'self'; form-action 'none'; sandbox; base-uri 'self'"> -->
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; style-src 'unsafe-inline'; font-src 'self'; frame-ancestors 'none'; form-action 'none'; sandbox; base-uri 'self';">
     <meta name="referrer" content="no-referrer">
     <!-- Add Google Analytics if enabled in configuration -->
     {{ if site.GoogleAnalytics }}
