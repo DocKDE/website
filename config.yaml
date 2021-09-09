@@ -22,7 +22,7 @@ markup:
     ordered: false
 
 params:
-  background: "images/site/scotdark.webp"
+  background: "images/site/scotdark_1080p.jpg"
   # fonts: true
 
   logo:
