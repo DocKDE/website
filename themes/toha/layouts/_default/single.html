@@ -40,19 +40,20 @@
   <div class="content">
     <div class="container p-0 read-area">
       <!--Hero Area-->
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }});'>
-      </div>
+      <!-- <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }});'>
+      </div> -->
 
       <!--Content Start-->
       <div class="page-content">
-        <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="Author Image">
-          <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
-          <p>{{ .Page.Date.Format "January 2, 2006" }}</p>
-        </div>
+        <!-- <div class="author-profile ml-auto align-self-lg-center"> -->
+          <!-- <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="Author Image"> -->
+          <!-- <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5> -->
+          <!-- <p>{{ .Page.Date.Format "January 2, 2006" }}</p> -->
+        <!-- </div> -->
 
         <div class="title">
-          <h1>{{ .Page.Title }}</h1>
+          <h1 >{{ .Page.Title }}</h1>
+          <p>{{ .Page.Date.Format "January 2, 2006" }}</p>
         </div>
         {{ if site.Params.enableTags }}
         <div class="taxonomy-terms">

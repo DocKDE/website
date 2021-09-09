@@ -86,14 +86,14 @@ body {
   transition: all ease-out 0.3s;
 }
 
-.hero-area {
+/* .hero-area {
   margin-top: 3rem;
   width: 100%;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .page-content {
   width: 100%;
@@ -108,7 +108,7 @@ body {
   text-align: center;
 }
 
-.author-name {
+/* .author-name {
   margin-top: 0px;
 }
 
@@ -122,9 +122,10 @@ body {
 }
 .author-profile p {
   color: #8392a5;
-}
+} */
 
 .title {
+  margin-top: 4cm;
   text-align: center;
 }
 
