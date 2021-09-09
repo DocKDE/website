@@ -22,7 +22,7 @@ markup:
     ordered: false
 
 params:
-  background: "images/site/scotdark_1080p.jpg"
+  background: "images/site/scotdark.webp"
   # fonts: true
 
   logo:
@@ -32,7 +32,7 @@ params:
 
   enableBlogPost: true
   enableTOC: true
-  enableTags: true
+  enableTags: false
 
   newsletter:
     enable: false

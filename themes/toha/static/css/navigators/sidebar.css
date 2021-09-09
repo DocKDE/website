@@ -33,7 +33,8 @@
 #search-box {
   margin-left: 5%;
   margin-right: 5%;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
+  width: 6cm;
   height: 35px;
   padding-left: 15px;
   margin-top: 30px;
