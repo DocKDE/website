@@ -1,0 +1,23 @@
+section:
+  name: Fähigkeiten
+  id: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: Computational Chemistry
+  summary: Mehrere Jahre Erfahrung mit DFT, semiempirischen und Wellenfunktions-methoden zur Berechnung der geometrischen und elektronischen Struktur von kleinen und mittelgroßen Übergangs-metallkomplexen sowie Proteinen. Fokus auf Berechnung von spektroskopischen Eigen-schaften wie Parameter für Schwingungs- optische, Röntgen-, EPR-, NMR-, und Mößbauer-Spektroskopie
+
+- name: Chemistry software
+  summary: Umfassende Erfahrung mit verschiedenen computerchemischen Programmpaketen (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) sowie verschiedener Werkzeuge zur Analyse und Visualisierung (PyMol, VMD, Avogadro, Chemcraft etc.).
+
+- name: Programmierung
+  summary: Erfahrung mit Rust, Python und bash für verschiedene kleine bis mittelgroße Projekte. Ich bin vertraut mit git zur Versionskontrolle und nutze es im Zusammenhang mit verschiedenen Hosting-Plattformen. Ich bin außerdem federführend für ein arbeitsbezogenes git-Repository zuständig.
+
+- name: Betriebssysteme
+  summary: Ich  Windows und Linux für die tägliche Nutzung gewohnt, wobei ich letzteres seit einigen Jahren ausschließlich benutze. Ich habe viele verschiedene Linux-Distributionen benutzt und bin mit deren Charakteristiken vertraut.
+
+- name: Systemadministration
+  summary: Ich betreibe seit einigen Jahren eigene Server in meinem Heimnetzwerk für familiäres Datenmanagement, Netzwerk-filterung und mehr. Ich bin es entsprechend gewohnt Systeme manuell zu konfigurieren und Terminal-basiert zu arbeiten.
+

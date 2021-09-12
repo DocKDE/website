@@ -28,9 +28,11 @@ buttons:
   filter: "coding"
 - name: Productivity
   filter: "productivity"
+- name: Image Editing
+  filter: "image_editing"
 - name: Synchronization
   filter: "synchronization"
-- name: Office
+- name: Text Editing
   filter: "office"
 - name: Social
   filter: "social"
@@ -114,13 +116,13 @@ projects:
 - name: Librewolf
   role: Browser
   logo: /images/sections/software/librewolf2.png
-  summary: Firefox fork with settings and tweaks geared towards maximum privacy. Great for casual browsing, however some websites break with it.
+  summary: Firefox fork with settings and tweaks geared towards maximum privacy. Supports all Firefox extensions and great for casual browsing, however some websites break with it.
   url: https://librewolf-community.gitlab.io/ 
   tags: ["professional", "personal", "desktop", "browser"]
 - name: Ungoogled Chromium
   role: Browser
   logo: /images/sections/software/chromium.png
-  summary: Fork of Chromium that strips out all Google components. This is great for privacy but the use of addons is not straightforward due to dependence on the chrome web store. Usefule when you need a chromium-based browser (e.g. video conferences).
+  summary: Fork of Chromium that strips out all Google components. This is great for privacy but the use of addons is not straightforward due to dependence on the chrome web store. Useful when you need a chromium-based browser (e.g. video conferences).
   url: https://github.com/Eloston/ungoogled-chromium
   tags: ["professional", "personal", "desktop", "mobile", "browser"]
 
@@ -170,6 +172,20 @@ projects:
   url: https://github.com/Etar-Group/Etar-Calendar
   tags: ["professional", "personal", "productivity", "mobile"]
 
+# Image Editing
+- name: Inkscape
+  role: Image Editing
+  logo: /images/sections/software/inkscape.png
+  url: https://inkscape.org/
+  summary: Image editor to create logos, drawings, vector graphics and presentation from SVG files.
+  tags: ["professional", "personal", "desktop", "image_editing"]
+- name: GIMP
+  role: Image Editing
+  logo: /images/sections/software/gimp2.png
+  summary: Image editor I use for very specific tasks.
+  url: https://www.gimp.org/
+  tags: ["professional", "personal", "desktop", "image_editing"]
+
 # File syncing
 - name: Nextcloud
   role: Cloud Collaboration Platform
@@ -218,11 +234,17 @@ projects:
   url: https://newpipe.net/
   tags: ["personal", "mobile", "social"]
 - name: Tusky
-  role: Mastodon Client
+  role: Mastodon Mobile Client
   logo: /images/sections/software/tusky2.png
-  summary: Client for the Mastodon federated social network (similar to Twitter).
+  summary: Mobile client for the Mastodon federated social network (similar to Twitter).
   url: https://tusky.app/
   tags: ["personal", "mobile", "social"]
+- name: Tootle
+  role: Mastodon Desktop Client
+  logo: /images/sections/software/tootle2.png
+  summary: Minimal desktop client for the Mastodon federated social network (similar to Twitter).
+  url: https://tusky.app/
+  tags: ["personal", "desktop", "social"]
 - name: Slide
   role: Alternative Reddit Client
   logo: /images/sections/software/slide2.png

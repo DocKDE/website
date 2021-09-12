@@ -1,0 +1,12 @@
+name: "Benedikt M. Flöser"
+nickname: "Benedikt"
+greeting: "Moin! Ich bin"
+image: "images/site/benedikt_sketch_blue.png"
+contactInfo:
+  email: "bfloeser@posteo.de"
+
+summary:
+  - Computerchemiker
+  - Hobbyentwickler
+  - Enthusiast für freie Software
+  - Privatsphärebefürworter

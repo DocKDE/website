@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Berufserfahrung
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: "Max-Planck-Institute für chemische Energiekonversion"
+    url: "https://www.cec.mpg.de/"
+    location: Mülheim a.d. Ruhr
+    # company overview
+
+  positions:
+  - designation: Postdoc
+    start: 05/2020
+    responsibilities:
+      - Planning and execution of quantum chemical calculations
+      - Coordination with coworkers and collaborators concerning planning and analysis of experiments and calculations in synergy
+      - Presentation and discussion of results with coworkers and collaborators 
+      - Maintenance and curation of repository for quantum chemistry&#8211;associated code
+
+- company:
+    name: Universität Kiel
+    url: "https://www.ac.uni-kiel.de/de/tuczek"
+    location: Kiel
+  positions:
+  - designation: Doktorand
+    start: 10/2014
+    end: 04/2020
+    responsibilities:
+      - Synthesis and spectroscopic characterization of organic and coordination compounds
+      - Quantum chemical characterization of transition metal complexes and correlation with experimental results
+      - Organization and execution of interdisciplinary cooperations with internal and external institutes
+      - Planning and supervision of lab courses and practicals
+      - Instruction of coworkers in conducting quantum chemical calculations 
+      - Presentation and discussion of results with coworkers, collaborators and at conferences
+      - Writing and publication of results in scientific journals

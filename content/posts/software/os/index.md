@@ -1,4 +1,5 @@
 ---
+
 title: "Choosing an Operating System"
 date: 2021-09-03
 hero: os.jpg
@@ -9,7 +10,9 @@ menu:
     parent: software
     weight: 10
 tags: ["Multi-lingual"]
+
 ---
+
 ### What?
 
 For those who do not know: an operating system (OS) is the software that runs your device, the most
@@ -44,7 +47,6 @@ Apple was accused of [unfair restrictions](https://en.wikipedia.org/wiki/Epic_Ga
 in their app store by Epic Games which is a still ongoing lawsuit that amounts to Apple being
 accused of abusing their position to suppress competition.
 
-
 Microsoft also faced more than one lawsuit of this kind, even as early as 
 [1998](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.) where it was complained
 that Microsoft had bundled their own web browser (Internet Explorer) with their operating system (Windows)
@@ -58,6 +60,7 @@ done so for years now.
 #### Vendor lock-in
 
 The concept of vendor lock-in means that once you buy a company's products, you're stuck with them. Some examples would be:
+
 - Apple devices ony supporting their charging cables, headphones etc. so you cannot use other or cheaper ones
 - Phone manufacturers not permitting the removal of the battery so as its capacity decreases you're forced to buy a new phone
 - DRM-protected media essentially binding you to a certain platform in order to get books, games or music
@@ -79,6 +82,7 @@ And plenty of others do too.
 
 With all that being said about why one might care, what to do with this information?
 Basically, I see two approaches here:
+
 1. Figure out what you need and then choose from all available options what fits best
 2. Rule out everything that doesn't suit your philosophy and use what's left
 
@@ -137,15 +141,16 @@ most beautiful design, the prettiest icons and I admit I have a taste for slick 
 of that to offer and this is one of the great things about it: there's a distro
 for (almost) everyone:
 
-- Coming from Windows and want something similar? Try [Linux Mint](https://linuxmint.com) or [Zorin](https://zorinos.com)!
-- Want something very established so you can get lots of help? Maybe go for [Ubuntu](https://ubuntu.com) 
-- Love minimalism and tinkering? [Arch](https://archlinux.org/) might be for you
-- Do you want to learn how everything fits together down to the last detail? Use [Linux from Scratch](https://www.linuxfromscratch.org/)
-- Do you want something rock-solid and stable? [Debian](https://www.debian.org/) is your distro!
-- Do you need the latest software but still want stability? Get [Fedora](https://getfedora.org)!
-- Do you just love the look of MacOS? Go for [elementaryOS](https://elementary.io) 
-(or just take any other distro and configure it)!
-- Have no idea at all? Use an [online tool](https://distrochooser.de/), that helps you choose!
+| You want ...                            | Then try ...                                                           |
+| --------------------------------------- | ---------------------------------------------------------------------- |
+| Something similar to windows?           | [Linux Mint](https://linuxmint.com) or [Zorin OS](https://zorinos.com) |
+| Established and easy to use?            | [Ubuntu](https://ubuntu.com) (and its flavors)                         |
+| Something minimal and customizable?     | [Arch](https://archlinux.org)                                          |
+| To learn how it all works?              | [Linux from scratch](https://linuxfromscratch.org)                     |
+| Rock-solid and stable?                  | [Debian](https://www.debian.org)                                       |
+| Stability but also the latest software? | [Fedora](https://getfedora.org)                                        |
+| The look and feel of MacOS?             | [elementary OS](https://elementary.io)                                 |
+| Something but have no idea what?        | [Online tool](https://distrochooser.de) for choosing                   |
 
 #### Free for all
 
@@ -196,7 +201,7 @@ something that makes me feel in control of my machine and my data. My interest
 in Linux and privacy have always gone hand in hand so I cannot really discuss one
 without the other.
 
-### So what did I choose? 
+### So what did I choose?
 
 Over time I realized what works for me and what doesn't. I
 learned more about how things work and became somewhat opinionated about what I
@@ -210,7 +215,3 @@ Taken together, the distro that ticks pretty much all of my boxes and
 is beautiful as well (a matter of taste of course) is Fedora which is what I'm using now. I don't expect this to change anytime soon but who knows?  
 
 > All it takes is a download and an available USB stick...
-
-
-
-

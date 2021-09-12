@@ -1,0 +1,62 @@
+section:
+  name: Über
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: "Computerchemiker"
+company:
+  name: "Max-Planck-Institute für chemische Energiekonversion"
+  url: "https://www.cec.mpg.de"
+
+resume: "files/cv/cv_english.pdf"
+
+summary: "Ich bin ein ehemals experimenteller, inzwischen computerorientierter Chemiker und Hobbyentwickler mit einer Leidenschaft
+für freie Software. Ich habe hauptsächlich Erfahrung mit Übergangsmetallverbindungen wie Enzyme oder Modellkomplexe hiervon
+und studiere ihre elektronische und geometrische Struktur sowie ihre Eigenschaften. Privat programmiere ich gerne und bastle mit Software herum.
+Ich liebe es Neues auf diesem Gebiet zu entdecken und in meine Arbeit zu integrieren und bin generell begeistert von freier Software und auch der
+Freiheit und den Möglichkeiten, die sie mir als Nutzer bringt. Wenn ich all das gerade nicht tue, genieße ich meine Zeit mit Freunden bei gutem Essen und
+Brettspielen (je komplexer desto besser) or entspanne mit einem guten Buch oder PC-Spiel."
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "bfloeser@posteo.de"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://fosstodon.org/@theDoctor"
+
+- name: Codeberg
+  icon: "fab fa-git-alt"
+  url: "https://codeberg.org/theDoctor"
+
+- name: GitLab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.gwdg.de/benedikt.floeser"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/DocKDE"
+
+softSkills:
+- name: Autodidakt
+  percentage: 85
+  color: blue
+- name: Problemlöser
+  percentage: 85
+  color: red
+- name: Teamarbeiter
+  percentage: 85
+  color: yellow
+# - name: Communicater
+#   percentage: 85
+#   color: green
+- name: Neugierig
+  percentage: 85
+  color: pink
+- name: Lernt schnell
+  percentage: 85
+  color: green
