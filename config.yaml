@@ -1,6 +1,6 @@
 baseURL: https://bfloeser.netlify.com
 languageCode: en-us
-title: "My digital home"
+# title: "My digital home"
 theme: "toha"
 
 # Manage languages
@@ -11,7 +11,7 @@ languages:
     weight: 1
   de:
     languageName: Deutsch
-    title: "Meine persönliche Website"
+    # title: "Meine persönliche Website"
     weight: 1
 
 # Control of TOC depth
@@ -26,8 +26,8 @@ params:
   # fonts: true
 
   logo:
-    main: "images/site/logo.png"
-    inverted: "images/site/logolite.png"
+  #   main: "images/site/logo.png"
+  #   inverted: "images/site/logolite.png"
     favicon: "images/site/logolite.png"
 
   enableBlogPost: true

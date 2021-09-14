@@ -30,6 +30,19 @@
                 href="https://bfloeser.netlify.com/de/search/"
                 />
   </url><url>
+    <loc>https://bfloeser.netlify.com/de/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/"
+                />
+  </url><url>
     <loc>https://bfloeser.netlify.com/de/tags/basic/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -93,19 +106,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://bfloeser.netlify.com/de/posts/introduction/"
-                />
-  </url><url>
-    <loc>https://bfloeser.netlify.com/de/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/"
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/de/tags/multi-lingual/</loc>
