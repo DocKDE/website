@@ -11,6 +11,13 @@ tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---
 
+### Hallo Welt!
+
+Liebe Lesende,
+
+Ich habe es endlich geschafft! Obwohl ich quasi keine Erfahrung mit Webentwicklung habe, habe ich hier meine persönlich Website ins Leben gerufen. Ich bin sehr froh darüber und es wird sicherlich interessant sein, zu sehen, wohin mich das führt. Natürlich würde ich gerne behaupten, dass ich das alles selbst vollbracht habe, aber tatsächlich gibt es inzwischen Software, die ein solches Unterfangen relativ einfach und schmerzfrei macht.  
+In diesem Sinne ein großes Dankeschön an die Entwickler von [Hugo](https://gohugo.io) und dem hier verwendeten Layout, [Toha](https://github.com/hugo-toha/toha)!
+
 ### Wozu?
 
 Dieser Blog dient in erster Linie dazu meine Gedanken und Erfahrungen zu verschiedenen Themen festzuhalten. Das ist hauptsächlich Software, die ich ausprobiere und benutze, weil ich das leidenschaftlich gerne tue und einen Ort brauche um das zu teilen. 

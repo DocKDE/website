@@ -21,15 +21,23 @@ of view some three years ago.
 #### ... and now
 
 Fast forward to now: 
+
 - I have banned everything Facebook, Google and Microsoft from my household.
+
   - All my desktops/laptops run Linux
+
   - All my phones run a degoogled version of Android
+
   - I never had any Apple devices but I had had some, I would've banned them too
+
 - I basically don't use any mainstream social media anymore (though I was never an avid 
-user in the first place)
+  user in the first place)
+
 - I host my own data storage solution so I don't have to rely on third parties for my 
-files. 
+  files. 
+
 - I filter all network traffic in my home network and my phone to get rid of tracking 
+
 - For daily browsing I mostly rely on the [Tor browser](https://www.torproject.org/)
 
 The list could go on for a while, especially considering the technical details but I think
@@ -47,7 +55,7 @@ Like many others out there I used two or three passwords for all the dozens of o
 terrible unsafe and would not have stood up to brute-forcing them by even the most 
 moderate computer hardware for any noticeable period of time.  
 
-The answer to this particular problem is easy and one that I recommend to **everyone**: 
+The solution to this particular problem is easy and one that I recommend to **everyone**: 
 password managers. A program that stores all your passwords in one safe place, all you 
 need to remember now is one master password.
 
@@ -66,6 +74,7 @@ trust companies like Google and Microsoft to keep my whole online life safe?
 #### The slippery slope
 
 This was how I started to think about this key concept of privacy and security: *trust*. The key question is then:
+
 > **To whom can you entrust your data?**
 
 This is how I started down the rabbit hole. Ever since then I've looked for answers to 
@@ -78,18 +87,28 @@ first place to feel safe.
 #### My bottom line
 
 Obviously, there's a lot that could be said about this topic but my personal bottom line (so far) is this:
+
 - Absolute digital data safety or privacy does not exist.
+
 - Promises about trustworthiness are a dime a dozen (*"We care about your data"*).
+
 - Transparency is key.
   - Transparency reports or similar help.
+
   - How a company responds to privacy concerns or similar is often telling.
+
   - Open source software is more likely to be trustworthy because it can be audited (i.e. 
-  read and checked) by anyone.
+    read and checked) by anyone.
+
 - Trust in this area needs to be earned, not given without question.
+
 - When feasible, do it yourself (can be a lot of fun, too).
   - Service hosting
+
   - Storing passwords
+
   - File syncing
+
 - When in doubt, don't use it.
 
 As of now, I'm happy with the place I'm in, privacy-wise, but I'm also curious what the 
