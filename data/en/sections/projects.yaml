@@ -33,7 +33,7 @@ buttons:
 - name: Synchronization
   filter: "synchronization"
 - name: Text Editing
-  filter: "office"
+  filter: "text_editing"
 - name: Social
   filter: "social"
 - name: Security
@@ -206,19 +206,24 @@ projects:
   url: https://www.davx5.com/
   tags: ["personal", "mobile", "synchronization"]
 
-# Office
+# Text Editing
 - name: LibreOffice
   role: Office Suite
-  logo: /images/sections/software/libreoffice2.png
+  logo: /images/sections/software/libretext_editing2.png
   summary: Drop-in replacement for MS Office. Offers document writer, presenter, spreadsheet and more with mostly the same features. Compatibility with MS is decent with some expected caveats being different fonts or usage of references.
-  url: https://www.libreoffice.org/
-  tags: ["professional", "personal", "desktop", "office"]
+  url: https://www.libretext_editing.org/
+  tags: ["professional", "personal", "desktop", "text_editing"]
 - name: TexMaker
   role: LaTeX Editor
   logo: /images/sections/software/texmaker2.png
   summary: Comprehensive IDE for the LaTeX typesetting software. I use(d) this for my dissertation or CV.
   url: https://www.xm1math.net/texmaker/
-  tags: ["professional", "personal", "desktop", "office"]
+  tags: ["professional", "personal", "desktop", "text_editing"]
+- name: Mark Text
+  role: Markdown Editor
+  logo: /images/sections/software/marktext.jpg
+  summary: Feature-rich and distraction-free markdown editor.
+  tags: ["professional", "personal", "desktop", "text_editing"]
 
 # Social
 - name: Freetube

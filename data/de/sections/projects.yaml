@@ -33,7 +33,7 @@ buttons:
 - name: Synchronisierung
   filter: "synchronization"
 - name: Textbearbeitung
-  filter: "office"
+  filter: "text_editing"
 - name: Soziales
   filter: "social"
 - name: Sicherheit
@@ -209,16 +209,21 @@ projects:
 # Office
 - name: LibreOffice
   role: Office Suite
-  logo: /images/sections/software/libreoffice2.png
+  logo: /images/sections/software/libretext_editing2.png
   summary: 1-zu-1-Ersatz von MS Office. Bietet Textverarbeitung, Präsentationen, Tabellenkalkulation und mehr mit weitestgehend den selben Funktionen. Kompatibilität mit MS ist solide with einigen erwartbaren Schwierigkeiten wie der Verfügbarkeit verschiedener Schriftarten or der Verarbeitung von Referenzen.
-  url: https://www.libreoffice.org/
-  tags: ["professional", "personal", "desktop", "office"]
+  url: https://www.libretext_editing.org/
+  tags: ["professional", "personal", "desktop", "text_editing"]
 - name: TexMaker
   role: LaTeX-Editor
   logo: /images/sections/software/texmaker2.png
   summary: Umfassende Entwicklungsumgebung für LaTeX. Ich nutz(t)e es für meinen Lebenslauf oder meine Abschlussarbeiten.
   url: https://www.xm1math.net/texmaker/
-  tags: ["professional", "personal", "desktop", "office"]
+  tags: ["professional", "personal", "desktop", "text_editing"]
+- name: Mark Text
+  role: Markdown-Editor
+  logo: /images/sections/software/marktext.jpg
+  summary: Funktionsreicher Markdown-Editor, der auf ablenkungsfreies Schreiben ausgerichtet ist.
+  tags: ["professional", "personal", "desktop", "text_editing"]
 
 # Social
 - name: Freetube
