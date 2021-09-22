@@ -209,7 +209,7 @@ projects:
 # Office
 - name: LibreOffice
   role: Office Suite
-  logo: /images/sections/software/libretext_editing2.png
+  logo: /images/sections/software/libreoffice2.png
   summary: 1-zu-1-Ersatz von MS Office. Bietet Textverarbeitung, Präsentationen, Tabellenkalkulation und mehr mit weitestgehend den selben Funktionen. Kompatibilität mit MS ist solide with einigen erwartbaren Schwierigkeiten wie der Verfügbarkeit verschiedener Schriftarten or der Verarbeitung von Referenzen.
   url: https://www.libretext_editing.org/
   tags: ["professional", "personal", "desktop", "text_editing"]

@@ -209,7 +209,7 @@ projects:
 # Text Editing
 - name: LibreOffice
   role: Office Suite
-  logo: /images/sections/software/libretext_editing2.png
+  logo: /images/sections/software/libreoffice2.png
   summary: Drop-in replacement for MS Office. Offers document writer, presenter, spreadsheet and more with mostly the same features. Compatibility with MS is decent with some expected caveats being different fonts or usage of references.
   url: https://www.libretext_editing.org/
   tags: ["professional", "personal", "desktop", "text_editing"]
