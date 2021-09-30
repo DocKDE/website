@@ -5,5 +5,5 @@
 rm -r public && hugo
 git add -A
 git commit -m $1
-git subtree push --prefix public origin master
+git subtree push --prefix public origin master --force
 git push github master
