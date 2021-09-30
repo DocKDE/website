@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic on </title>
+    <link>https://bfloeser.netlify.com/tags/basic/</link>
+    <description>Recent content in Basic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://bfloeser.netlify.com/posts/introduction/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/introduction/</guid>
+      <description>Hello world Dear reader, I finally made it! Although I have basically no experience with web development, here is my personal website. I&amp;rsquo;m quite excited about this and it&amp;rsquo;s going to be interesting to see where it takes me. Of course I&amp;rsquo;d like to take all the credit but the truth is that there are software and services out there that make this kind of endeavour relatively easy and painless.</description>
+    </item>
+    
+  </channel>
+</rss>
