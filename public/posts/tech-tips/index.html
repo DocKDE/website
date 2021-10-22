@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>অনুসন্ধানের ফলাফল</title>
+    <title>Tech Notes</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -32,16 +32,10 @@
 
   <link rel="icon" type="image/png" href="/images/site/logolite_hu7e96301cf103bc119b19f5a246bceea0_113023_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="অনুসন্ধানের ফলাফল" />
-<meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://bfloeser.netlify.com/search/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2010-06-08T08:06:25+06:00" />
-<meta property="article:modified_time" content="2010-06-08T08:06:25+06:00" />
+<meta property="og:title" content="Tech Notes" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://bfloeser.netlify.com/posts/tech-tips/" />
 
 
 
@@ -88,6 +82,29 @@ Initial setup Search depends on additional output content type of JSON in config
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-gb"></span>
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/tech-tips">
+          
+          <span class="flag-icon flag-icon-de"></span>
+          Deutsch
+        </a>
+      
+    </div>
+</li>
+
       
       </ul>
     </div>
@@ -180,12 +197,15 @@ Initial setup Search depends on additional output content type of JSON in config
   
   
   
+    
+    
+  
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/tech-tips/">Tech Notes</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/tech-tips/">Tech Notes</a>
       
-      <ul class="">
+      <ul class="active">
         
   
   
@@ -215,29 +235,37 @@ Initial setup Search depends on additional output content type of JSON in config
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
     <div class="container-fluid post-card-holder" id="post-card-holder">
-      <div id="search-results">
-
-        <script id="search-result-template" type="text/x-js-template">
+      
+      
+      
+        
           <div class="post-card">
-            <a href="${link}" class="post-card-link">
-              <div class="card" style="min-height: 352px;"><a href="${link}" class="post-card-link">
-                <div class="card-head">
-                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">${title}</h5>
-                  <p class="card-text post-summary">${summary}</p>
-                </div>
-                <div class="card-footer">
-                  <span class="float-left">${date}</span>
-                  <a href="${link}" class="float-right btn btn-outline-info btn-sm">Read</a>
-                </div>
-              </div>
-	          </a>
-          </div>
-        </script>
-
+  <a href="/posts/tech-tips/conda/" class="post-card-link">
+    <div class="card">
+      
+      <div class="card-body">
+        <h5 class="card-title">Running a script on conda activate</h5>
+        <p class="card-text post-summary">I recently noticed that using a conda environment can come with a couple inconveniences. For example, since the default Python executable changes when activating conda, this means that the $PATH variable has been modified and some software can not be found anymore.
+For instance, I can&rsquo;t call PyMol from command line when in a conda environment because it somehow depends on the Python executable, it seems.
+I recently installed some software into a conda env, that needs a couple of environment variables to run but which I only really need (or want) when running this software in this conda env because it messes with $PATH and disrupts my workflow otherwise.</p>
       </div>
+      <div class="card-footer">
+        <span class="float-left">October 22, 2021</span>
+        <a
+        href="/posts/tech-tips/conda/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
     </div>
   </div>
 </section>
@@ -349,9 +377,7 @@ Initial setup Search depends on additional output content type of JSON in config
 
     
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
-<script src="https://bfloeser.netlify.com/js/search.js"></script>
+    <script src="/js/list.js"></script>
 
   </body>
 </html>

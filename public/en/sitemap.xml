@@ -105,7 +105,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://bfloeser.netlify.com/</loc>
-    <lastmod>2021-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -115,6 +115,61 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bfloeser.netlify.com/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/tags/multi-lingual/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/tags/multi-lingual/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/tags/multi-lingual/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/posts/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/posts/tech-tips/conda/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bfloeser.netlify.com/tags/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/tags/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/posts/tech-tips/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/tech-tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/tech-tips/"
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/posts/software/os/</loc>
@@ -130,32 +185,6 @@
                 href="https://bfloeser.netlify.com/posts/software/os/"
                 />
   </url><url>
-    <loc>https://bfloeser.netlify.com/tags/multi-lingual/</loc>
-    <lastmod>2021-09-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/tags/multi-lingual/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/tags/multi-lingual/"
-                />
-  </url><url>
-    <loc>https://bfloeser.netlify.com/posts/</loc>
-    <lastmod>2021-09-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/posts/"
-                />
-  </url><url>
     <loc>https://bfloeser.netlify.com/posts/software/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -167,19 +196,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bfloeser.netlify.com/posts/software/"
-                />
-  </url><url>
-    <loc>https://bfloeser.netlify.com/tags/</loc>
-    <lastmod>2021-09-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/tags/"
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/tags/basic/</loc>

@@ -198,5 +198,17 @@
                 hreflang="de"
                 href="https://bfloeser.netlify.com/de/notes/"
                 />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/posts/tech-tips/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/tech-tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/tech-tips/"
+                />
   </url>
 </urlset>
