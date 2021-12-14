@@ -31,10 +31,10 @@ params:
   features:
     blog:
       enable: True
-      shareButtons:
+      # shareButtons:
       email: True
 
-  enableTOC: true
+  # enableTOC: true
   enableTags: false
 
   newsletter:

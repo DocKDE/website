@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Running a script on conda activate</title>
+    <title>Gothic 2 unter Linux zum Laufen bringen</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -32,20 +32,18 @@
 
   <link rel="icon" type="image/png" href="/images/site/logolite_hu7e96301cf103bc119b19f5a246bceea0_113023_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Running a script on conda activate" />
-<meta property="og:description" content="I recently noticed that using a conda environment can come with a couple inconveniences. For example, since the default Python executable changes when activating conda, this means that the $PATH variable has been modified and some software can not be found anymore.
-For instance, I can&rsquo;t call PyMol from command line when in a conda environment because it somehow depends on the Python executable, it seems.
-I recently installed some software into a conda env, that needs a couple of environment variables to run but which I only really need (or want) when running this software in this conda env because it messes with $PATH and disrupts my workflow otherwise." />
+<meta property="og:title" content="Gothic 2 unter Linux zum Laufen bringen" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://bfloeser.netlify.com/posts/tech-tips/conda/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-22T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-22T00:00:00+00:00" />
+<meta property="og:url" content="https://bfloeser.netlify.com/de/posts/gaming/gothic2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-14T00:00:00+00:00" />
 
 
 
     
     
-<meta name="description" content="Running a script on conda activate" />
+<meta name="description" content="Gothic 2 unter Linux zum Laufen bringen" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -83,7 +81,7 @@ I recently installed some software into a conda env, that needs a couple of envi
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/de">
       </a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -91,6 +89,29 @@ I recently installed some software into a conda env, that needs a couple of envi
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-de"></span>
+      Deutsch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/posts/gaming/gothic2">
+          
+          <span class="flag-icon flag-icon-gb"></span>
+          English
+        </a>
+      
+    </div>
+</li>
+
       
       </ul>
     </div>
@@ -107,12 +128,12 @@ I recently installed some software into a conda env, that needs a couple of envi
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/search">
+        <form class="mx-auto" method="get" action="/de/search">
           <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <li id="list-heading"><a href="/de/posts" data-filter="all">Beiträge</a></li>
             <div class="subtree">
                 
   
@@ -121,82 +142,7 @@ I recently installed some software into a conda env, that needs a couple of envi
   
   
     
-    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/gaming/">Gaming</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/gaming/gothic2/" title="Gothic 2 on Linux">Gothic 2 on Linux</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/privacy/">Privacy</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/privacy/start/" title="How it started">How it started</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/software/">Software</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/software/os/" title="Operating System">Operating System</a></li>
-  
-
-
-      </ul>
-    </li>
+    <li><a class="" href="/de/posts/introduction/" title="Einleitung">Einleitung</a></li>
   
 
   
@@ -209,7 +155,7 @@ I recently installed some software into a conda env, that needs a couple of envi
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/tech-tips/">Tech Notes</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/de/posts/gaming/">Gaming</a>
       
       <ul class="active">
         
@@ -222,12 +168,71 @@ I recently installed some software into a conda env, that needs a couple of envi
   
   
     
-    <li><a class="active" href="/posts/tech-tips/conda/" title="conda activate">conda activate</a></li>
+    <li><a class="active" href="/de/posts/gaming/gothic2/" title="Gothic 2 unter Linux">Gothic 2 unter Linux</a></li>
   
 
 
       </ul>
     </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/de/posts/privacy/">Privatsphäre</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/de/posts/privacy/start/" title="Wie alles begann">Wie alles begann</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/de/posts/software/">Software</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/de/posts/software/os/" title="Betriebssystem">Betriebssystem</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/de/posts/tech-tips/" title="Tech Notizen">Tech Notizen</a></li>
   
 
 
@@ -256,24 +261,12 @@ I recently installed some software into a conda env, that needs a couple of envi
         
 
         <div class="title">
-          <h1 >Running a script on conda activate</h1>
-          <p>October 22, 2021</p>
+          <h1 >Gothic 2 unter Linux zum Laufen bringen</h1>
+          <p>December 14, 2021</p>
         </div>
         
         <div class="post-content" id="post-content">
-          <p>I recently noticed that using a conda environment can come with a couple inconveniences. For example, since the default
-Python executable changes when activating conda, this means that the <code>$PATH</code> variable has been modified and
-some software can not be found anymore.</p>
-<p>For instance, I can&rsquo;t call PyMol from command line when in a conda environment because it somehow depends on the Python
-executable, it seems.</p>
-<p>I recently installed some software into a conda env, that needs a couple of environment variables to run but which I
-only really need (or want) when running this software in this conda env because it messes with <code>$PATH</code> and disrupts my
-workflow otherwise.</p>
-<p>Solution: it&rsquo;s possible to have conda source a (shell) script that is only run when it&rsquo;s actually activated. So put
-whatever commands you want (e.g. for setting environment variables) into a small script and place it in
-<code>[path_to_your_conda]/envs/[conda env name]/etc/conda/activate.d</code></p>
-<p>Done. When you next fire up that env the script will be sourced.</p>
-
+          
         </div>
 
         
@@ -299,17 +292,17 @@ whatever commands you want (e.g. for setting environment variables) into a small
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
     
     
+  
+  
+
+  
+  
+
+  
+  
+
   
   
 
@@ -317,13 +310,24 @@ whatever commands you want (e.g. for setting environment variables) into a small
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/software/os/" title="Choosing an Operating System" class="btn btn-outline-info">
-        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">Choosing an Operating System</div>
+      <a href="/de/posts/introduction/" title="Einleitung" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Vorherige</div>
+        <div class="next-prev-text">Einleitung</div>
       </a>
     </div>
   
   
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/de/posts/privacy/start/" title="Wie alles begann" class="btn btn-outline-info">
+          <div>Nächste <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Wie alles begann</div>
+        </a>
+      </div>
+    
 </div>
 
       <hr />
@@ -334,6 +338,29 @@ whatever commands you want (e.g. for setting environment variables) into a small
   </div>
   
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <img class="flag" src="https://www.countryflags.io/de/flat/16.png" alt="de">
+        Deutsch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/posts/gaming/gothic2">
+            
+            <img class="flag" src="https://www.countryflags.io/gb/flat/24.png" alt="gb">
+            English
+        </a>
+        
+    </div>
+</div>
+
   
 </section>
 
@@ -423,7 +450,7 @@ whatever commands you want (e.g. for setting environment variables) into a small
         </div>
         <div class="col-md-4 text-center">© 2020 Copyright.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Unterstützt von
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"

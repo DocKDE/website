@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Running a script on conda activate</title>
+    <title>How to run Gothic 2 on Linux</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -32,20 +32,19 @@
 
   <link rel="icon" type="image/png" href="/images/site/logolite_hu7e96301cf103bc119b19f5a246bceea0_113023_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Running a script on conda activate" />
-<meta property="og:description" content="I recently noticed that using a conda environment can come with a couple inconveniences. For example, since the default Python executable changes when activating conda, this means that the $PATH variable has been modified and some software can not be found anymore.
-For instance, I can&rsquo;t call PyMol from command line when in a conda environment because it somehow depends on the Python executable, it seems.
-I recently installed some software into a conda env, that needs a couple of environment variables to run but which I only really need (or want) when running this software in this conda env because it messes with $PATH and disrupts my workflow otherwise." />
+<meta property="og:title" content="How to run Gothic 2 on Linux" />
+<meta property="og:description" content="There are many challenges when it comes to gaming on Linux but it&rsquo;s even more difficult to get something up and running that&rsquo;s so old that it&rsquo;s a hassle to do it under Windows as well.
+In essence you have to deal with the setup you&rsquo;d do in Windows (which is already nontrivial) and apply all of it through the layer of abstraction that is running Windows software on Linux. Fun." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://bfloeser.netlify.com/posts/tech-tips/conda/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-22T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-22T00:00:00+00:00" />
+<meta property="og:url" content="https://bfloeser.netlify.com/posts/gaming/gothic2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-14T00:00:00+00:00" />
 
 
 
     
     
-<meta name="description" content="Running a script on conda activate" />
+<meta name="description" content="How to run Gothic 2 on Linux" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -92,6 +91,29 @@ I recently installed some software into a conda env, that needs a couple of envi
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
       
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-gb"></span>
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/gaming/gothic2">
+          
+          <span class="flag-icon flag-icon-de"></span>
+          Deutsch
+        </a>
+      
+    </div>
+</li>
+
+      
       </ul>
     </div>
   </div>
@@ -128,20 +150,26 @@ I recently installed some software into a conda env, that needs a couple of envi
   
   
   
+    
+    
+  
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/gaming/">Gaming</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/gaming/">Gaming</a>
       
-      <ul class="">
+      <ul class="active">
         
   
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/gaming/gothic2/" title="Gothic 2 on Linux">Gothic 2 on Linux</a></li>
+    <li><a class="active" href="/posts/gaming/gothic2/" title="Gothic 2 on Linux">Gothic 2 on Linux</a></li>
   
 
 
@@ -203,26 +231,20 @@ I recently installed some software into a conda env, that needs a couple of envi
   
   
   
-    
-    
-  
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/tech-tips/">Tech Notes</a>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/tech-tips/">Tech Notes</a>
       
-      <ul class="active">
+      <ul class="">
         
   
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/tech-tips/conda/" title="conda activate">conda activate</a></li>
+    <li><a class="" href="/posts/tech-tips/conda/" title="conda activate">conda activate</a></li>
   
 
 
@@ -256,23 +278,35 @@ I recently installed some software into a conda env, that needs a couple of envi
         
 
         <div class="title">
-          <h1 >Running a script on conda activate</h1>
-          <p>October 22, 2021</p>
+          <h1 >How to run Gothic 2 on Linux</h1>
+          <p>December 14, 2021</p>
         </div>
         
         <div class="post-content" id="post-content">
-          <p>I recently noticed that using a conda environment can come with a couple inconveniences. For example, since the default
-Python executable changes when activating conda, this means that the <code>$PATH</code> variable has been modified and
-some software can not be found anymore.</p>
-<p>For instance, I can&rsquo;t call PyMol from command line when in a conda environment because it somehow depends on the Python
-executable, it seems.</p>
-<p>I recently installed some software into a conda env, that needs a couple of environment variables to run but which I
-only really need (or want) when running this software in this conda env because it messes with <code>$PATH</code> and disrupts my
-workflow otherwise.</p>
-<p>Solution: it&rsquo;s possible to have conda source a (shell) script that is only run when it&rsquo;s actually activated. So put
-whatever commands you want (e.g. for setting environment variables) into a small script and place it in
-<code>[path_to_your_conda]/envs/[conda env name]/etc/conda/activate.d</code></p>
-<p>Done. When you next fire up that env the script will be sourced.</p>
+          <p>There are many challenges when it comes to gaming on Linux but it&rsquo;s even more difficult to get something up and running that&rsquo;s so old that it&rsquo;s a hassle to do it under Windows as well.</p>
+<p>In essence you have to deal with the setup you&rsquo;d do in Windows (which is already nontrivial) and apply all of it through the layer of abstraction that is running Windows software on Linux. Fun.</p>
+<p>Anyway, Gothic 2 is one of my favourite games of all times and I recently discovered that there are some very interesting mods for it out there which I&rsquo;ve never tried. I know I&rsquo;m like 10 years late with this realization, so sue me.</p>
+<p>As a note to others (and most of all myself), here&rsquo;s how to do it:</p>
+<ol>
+<li>Install the game in a wine prefix (the gog version via Lutris is usually most convenient but doing it by hand or through proton on Steam should also work)</li>
+<li>Add <code>vcrun2008</code>, <code>vcrun2010</code> and <code>directmusic</code> libraries with winetricks in prefix. Make sure <code>wine-mono</code> is installed globally (use protontricks for Steam install).</li>
+<li>Run <code>winecfg</code> in prefix and make sure that the <code>dsound</code> library override is <em>exactly</em> set to &ldquo;(builtin, native)&rdquo;
+<ul>
+<li>It is possible that this must be done via command line and not with the built-in Lutris <code>winecfg</code> button.</li>
+</ul>
+</li>
+</ol>
+<p>From here on out, it depends on what you wanna do. It is recommended to install several patches, namely</p>
+<ul>
+<li><a href="https://www.worldofgothic.de/dl/download_278.htm">fix-2.6.0.0-rev2</a></li>
+<li><a href="https://www.worldofgothic.de/dl/download_168.htm">playerkit-2.6f</a></li>
+<li><a href="https://www.worldofgothic.de/dl/download_597.htm">SystemPack-1.8</a></li>
+</ul>
+<p>especially if you want to mod the game (which I wanted when I installed this).
+There are other things that can be modded and installed, especially the <a href="https://www.worldofgothic.de/dl/download_590.htm">D3D11 Renderer</a> is often mentioned but I&rsquo;ve got to admit I didn&rsquo;t notice any difference with that (I&rsquo;m not much of a graphics connoisseur though).</p>
+<p>Afterwards, any mods may be installed, e.g. &ldquo;L&rsquo;Hiver&rdquo; or &ldquo;Legend of Ahssûn&rdquo; by running the downloaded exe files.</p>
+<p>Finally the executable must be changed to the newly created &ldquo;GothicStarter.exe&rdquo; (or some workaround therefor) to run these mods (for the vanilla version just leave the exe as is).</p>
+<p>Enjoy one of the coolest RPGs ever created!</p>
 
         </div>
 
@@ -299,17 +333,17 @@ whatever commands you want (e.g. for setting environment variables) into a small
   
 
   
-  
-
-  
-  
-
-  
-  
-
-  
     
     
+  
+  
+
+  
+  
+
+  
+  
+
   
   
 
@@ -317,13 +351,24 @@ whatever commands you want (e.g. for setting environment variables) into a small
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/software/os/" title="Choosing an Operating System" class="btn btn-outline-info">
+      <a href="/posts/introduction/" title="Introduction" class="btn btn-outline-info">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">Choosing an Operating System</div>
+        <div class="next-prev-text">Introduction</div>
       </a>
     </div>
   
   
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/privacy/start/" title="How it all started" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">How it all started</div>
+        </a>
+      </div>
+    
 </div>
 
       <hr />
@@ -334,6 +379,29 @@ whatever commands you want (e.g. for setting environment variables) into a small
   </div>
   
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+    
+
+    
+
+
+<div class="dropdown languageSelector">
+    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png" alt="gb">
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/gaming/gothic2">
+            
+            <img class="flag" src="https://www.countryflags.io/de/flat/24.png" alt="de">
+            Deutsch
+        </a>
+        
+    </div>
+</div>
+
   
 </section>
 

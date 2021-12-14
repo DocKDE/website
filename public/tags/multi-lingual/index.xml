@@ -6,7 +6,26 @@
     <description>Recent content in Multi-lingual on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming</title>
+      <link>https://bfloeser.netlify.com/posts/gaming/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to run Gothic 2 on Linux</title>
+      <link>https://bfloeser.netlify.com/posts/gaming/gothic2/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/gaming/gothic2/</guid>
+      <description>There are many challenges when it comes to gaming on Linux but it&amp;rsquo;s even more difficult to get something up and running that&amp;rsquo;s so old that it&amp;rsquo;s a hassle to do it under Windows as well.
+In essence you have to deal with the setup you&amp;rsquo;d do in Windows (which is already nontrivial) and apply all of it through the layer of abstraction that is running Windows software on Linux. Fun.</description>
+    </item>
+    
     <item>
       <title>Running a script on conda activate</title>
       <link>https://bfloeser.netlify.com/posts/tech-tips/conda/</link>

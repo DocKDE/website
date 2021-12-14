@@ -31,7 +31,7 @@
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/de/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,6 +41,71 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://bfloeser.netlify.com/de/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/posts/gaming/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/gaming/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/posts/gaming/gothic2/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/gaming/gothic2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/gaming/gothic2/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/tags/multi-lingual/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/tags/multi-lingual/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/tags/multi-lingual/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/posts/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/posts/"
+                />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/de/tags/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bfloeser.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bfloeser.netlify.com/de/tags/"
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/de/tags/basic/</loc>
@@ -108,32 +173,6 @@
                 href="https://bfloeser.netlify.com/de/posts/introduction/"
                 />
   </url><url>
-    <loc>https://bfloeser.netlify.com/de/tags/multi-lingual/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/tags/multi-lingual/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/tags/multi-lingual/"
-                />
-  </url><url>
-    <loc>https://bfloeser.netlify.com/de/posts/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/posts/"
-                />
-  </url><url>
     <loc>https://bfloeser.netlify.com/de/posts/privacy/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -158,19 +197,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://bfloeser.netlify.com/de/posts/software/"
-                />
-  </url><url>
-    <loc>https://bfloeser.netlify.com/de/tags/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bfloeser.netlify.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://bfloeser.netlify.com/de/tags/"
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/de/posts/privacy/start/</loc>

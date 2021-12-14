@@ -2,7 +2,7 @@
 title: "Introduction"
 date: 2021-09-01
 description: Introduction
-hero: hello.jpg
+# hero: hello.jpg
 menu:
   sidebar:
     name: Introduction

@@ -6,7 +6,7 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Results</title>
       <link>https://bfloeser.netlify.com/de/search/</link>
@@ -31,6 +31,15 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Gothic 2 unter Linux zum Laufen bringen</title>
+      <link>https://bfloeser.netlify.com/de/posts/gaming/gothic2/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/de/posts/gaming/gothic2/</guid>
+      <description></description>
     </item>
     
     <item>
