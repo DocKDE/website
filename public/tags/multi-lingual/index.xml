@@ -6,7 +6,26 @@
     <description>Recent content in Multi-lingual on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Experience with Rust</title>
+      <link>https://bfloeser.netlify.com/posts/software/rust/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/software/rust/</guid>
+      <description>A while ago I stumbled across some mention of the Stack Overflow Developer Survey which found that the Rust language has held the spot of most loved programming language since 2016. That seemed interesting to me but I didn&amp;rsquo;t follow it up in any way.
+A while later I came across some Rust tutorial videos on one of the YouTube channels I frequently visit and looked into it a bit. Looked pretty involved to me and that was that again.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://bfloeser.netlify.com/posts/software/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Gaming</title>
       <link>https://bfloeser.netlify.com/posts/gaming/</link>
@@ -54,15 +73,6 @@ I recently installed some software into a conda env, that needs a couple of envi
       <guid>https://bfloeser.netlify.com/posts/software/os/</guid>
       <description>What? For those who do not know: an operating system (OS) is the software that runs your device, the most popular ones being Windows, MacOS, Android and iOS.
 It takes care of communicating with the hardware (that is hard drive, graphics card, processor etc.) and starts it up, provides you with the nice graphical interface that you&amp;rsquo;re (probably) used to and much more. It is also the layer underneath all the applications you&amp;rsquo;re using, like Office, a browser or games.</description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://bfloeser.netlify.com/posts/software/</link>
-      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bfloeser.netlify.com/posts/software/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -6,7 +6,7 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resultados de Búsqueda</title>
       <link>https://bfloeser.netlify.com/search/</link>
@@ -304,6 +304,16 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>My Experience with Rust</title>
+      <link>https://bfloeser.netlify.com/posts/software/rust/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/software/rust/</guid>
+      <description>A while ago I stumbled across some mention of the Stack Overflow Developer Survey which found that the Rust language has held the spot of most loved programming language since 2016. That seemed interesting to me but I didn&amp;rsquo;t follow it up in any way.
+A while later I came across some Rust tutorial videos on one of the YouTube channels I frequently visit and looked into it a bit. Looked pretty involved to me and that was that again.</description>
     </item>
     
     <item>
