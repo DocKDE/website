@@ -35,7 +35,7 @@ Another thing I found out about while reading the introductory text is memory ma
 
 That's already enough for an unprepared mind to digest but Rust's truly unique feature is it's ownership model. Any piece of data can only be owned by one variable at a time. It can be passed around to other variables and the data can be borrowed by yet other variables. 
 
-Consequently, the following won't compile because after passing ownership of the data held by `a` to `b` the variable `a` is uninitialized and the data it held in not accessible anymore.
+Consequently, the following won't compile because after passing ownership of the data held by `a` to `b` the variable `a` is uninitialized and the data it held is not accessible anymore.
 
 ```rust
 let a = "Hello";
