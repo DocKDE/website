@@ -54,6 +54,18 @@ println!("b: {}, c: {}", b, c);
 
 The compiler will then produce this:
 
+```
+error[E0502]: cannot borrow `a` as mutable because it is also borrowed as immutable
+  --> src/main.rs:72:13
+   |
+71 |     let b = &a;
+   |             -- immutable borrow occurs here
+72 |     let c = &mut a;
+   |             ^^^^^^ mutable borrow occurs here
+73 |     println!("b: {}, c: {}", b, c);
+   |                              - immutable borrow later used here
+```
+
 which is a nice example of the compilers detailed error messages.
 
 This prevents inconsistencies where, e.g., two different functions edit the same data. As it happens, this also works across different threads which is why multithreading in Rust is inherently safe.

@@ -314,7 +314,16 @@ println<span style="color:#f92672">!</span>(<span style="color:#e6db74">&#34;{}&
 <span style="color:#66d9ef">let</span> c <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span><span style="color:#66d9ef">mut</span> a;
 println<span style="color:#f92672">!</span>(<span style="color:#e6db74">&#34;b: {}, c: {}&#34;</span>, b, c);
 </code></pre></div><p>The compiler will then produce this:</p>
-<p>which is a nice example of the compilers detailed error messages.</p>
+<pre><code>error[E0502]: cannot borrow `a` as mutable because it is also borrowed as immutable
+  --&gt; src/main.rs:72:13
+   |
+71 |     let b = &amp;a;
+   |             -- immutable borrow occurs here
+72 |     let c = &amp;mut a;
+   |             ^^^^^^ mutable borrow occurs here
+73 |     println!(&quot;b: {}, c: {}&quot;, b, c);
+   |                              - immutable borrow later used here
+</code></pre><p>which is a nice example of the compilers detailed error messages.</p>
 <p>This prevents inconsistencies where, e.g., two different functions edit the same data. As it happens, this also works across different threads which is why multithreading in Rust is inherently safe.</p>
 <p>This appears to be a novel feature in programming languages and while it may seem straightforward (and in principle it is), in practice it results in a lot of compiler errors telling you things like: &ldquo;Sorry man, I can&rsquo;t let you do that!&rdquo;. Might have paraphrased a bit there.</p>
 <p>This is known as &ldquo;fighting the borrow-checker&rdquo; and is pretty much constantly popping up when you&rsquo;re new to Rust. At least I hope so because that would mean that I wasn&rsquo;t the only one struggling with the concept.</p>
