@@ -104,5 +104,14 @@ It takes care of communicating with the hardware (that is hard drive, graphics c
       <description></description>
     </item>
     
+    <item>
+      <title>Managing dotfiles with bare git repo</title>
+      <link>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</guid>
+      <description>A tale as old as time: you configure and tweak your personal machine that you use for work, coding, fun and games or whatever and at some point you wonder how you might preserve all those tweaks. Either, you want to back them up (which is always sensible) or you want to transfer to a new machine or want to show them to other people online so they can just download your setup and get going immediately.</description>
+    </item>
+    
   </channel>
 </rss>

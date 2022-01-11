@@ -328,6 +328,8 @@
                 href="https://bfloeser.netlify.com/notes/"
                 />
   </url><url>
+    <loc>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</loc>
+  </url><url>
     <loc>https://bfloeser.netlify.com/search/</loc>
     <priority>0.1</priority>
     <xhtml:link
