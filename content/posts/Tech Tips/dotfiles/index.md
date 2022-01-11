@@ -1,6 +1,6 @@
 ---
 title: "Managing dotfiles with bare git repo"
-date: 2022-1-11
+date: 2022-01-11
 menu:
   sidebar:
     name: Manage dotfiles

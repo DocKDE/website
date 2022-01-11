@@ -6,7 +6,25 @@
     <description>Recent content in Multi-lingual on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing dotfiles with bare git repo</title>
+      <link>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</guid>
+      <description>A tale as old as time: you configure and tweak your personal machine that you use for work, coding, fun and games or whatever and at some point you wonder how you might preserve all those tweaks. Either, you want to back them up (which is always sensible) or you want to transfer to a new machine or want to show them to other people online so they can just download your setup and get going immediately.</description>
+    </item>
+    
+    <item>
+      <title>Tech Notes</title>
+      <link>https://bfloeser.netlify.com/posts/tech-tips/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/tech-tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>My Experience with Rust</title>
       <link>https://bfloeser.netlify.com/posts/software/rust/</link>
@@ -57,15 +75,6 @@ I recently installed some software into a conda env, that needs a couple of envi
     </item>
     
     <item>
-      <title>Tech Notes</title>
-      <link>https://bfloeser.netlify.com/posts/tech-tips/</link>
-      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bfloeser.netlify.com/posts/tech-tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Choosing an Operating System</title>
       <link>https://bfloeser.netlify.com/posts/software/os/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
@@ -102,15 +111,6 @@ It takes care of communicating with the hardware (that is hard drive, graphics c
       
       <guid>https://bfloeser.netlify.com/posts/privacy/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Managing dotfiles with bare git repo</title>
-      <link>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</guid>
-      <description>A tale as old as time: you configure and tweak your personal machine that you use for work, coding, fun and games or whatever and at some point you wonder how you might preserve all those tweaks. Either, you want to back them up (which is always sensible) or you want to transfer to a new machine or want to show them to other people online so they can just download your setup and get going immediately.</description>
     </item>
     
   </channel>
