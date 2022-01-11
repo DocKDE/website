@@ -281,40 +281,51 @@
 <p>There are many ways and quite a few dedicated tools to achieve this. You could symlink everything to a central place and use version control to keep track of the files. I have seen people use gnu <code>stow</code> or something like <code>chezmoi</code> or <code>yadm</code> but somehow none of these ever really clicked with me.</p>
 <p>I remember having read/heard about using bare git repositories quite a while back but I couldn&rsquo;t make sense of it back then or the tutorials I found were weird, I don&rsquo;t quite remember. Today, however, I once again hazarded a look at the results of my favourite search engine concerning this topic and voilà: I found what I needed.</p>
 <p>Disclaimer: none of what I write here is my own idea so I don&rsquo;t take credit or responsibility. With that said, here goes:</p>
-<p><code>git init --bare $HOME/.cfg</code></p>
-<p>This initializes a bare git repo in a folder called <code>.cfg</code> (name is arbitrary of course), meaning it does not contain a working tree.</p>
-<p>Define an alias for using this repo:</p>
-<p><code>alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'</code></p>
-<p>This should be saved to whatever your shell config file is so you don&rsquo;t have to define this every time you open a terminal. It allows you to perform git commands for the defined repo when outside of it. It also defines the <code>$HOME</code> directory as your working tree and stores the history of it in <code>.cfg</code>.</p>
-<p><code>config config --local status.showUntrackedFiles no</code></p>
-<p>This changes the local git config so that untracked files are no longer shown. Otherwise every single file in your home folder would pop up here which we clearly are not interested in.</p>
+<div class="alert alert-info">
+    <strong><code>git init --bare $HOME/.cfg</code><br>
+<code>alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'</code><br>
+<code>config config --local status.showUntrackedFiles no</code></strong>
+</div>
+
+<p>That&rsquo;s basically all.</p>
+<p>The first command initializes a bare git repo in a folder called <code>.cfg</code> (name is arbitrary of course), meaning it does not contain a working tree.
+The second defines an alias for using this repo.</p>
+<p>This should be saved to whatever your shell config file is so you don&rsquo;t have to define this every time you open a
+terminal. It allows you to perform git commands for the defined repo when outside of it. It also defines the <code>$HOME</code>
+directory as your working tree and stores the history of it in <code>.cfg</code>.</p>
+<p>The last line changes the local git config so that untracked files are no longer shown. Otherwise every single file in your home folder would pop up here which we clearly are not interested in.</p>
 <p>Now the repo can be added to, committed and pushed somewhere:</p>
-<ul>
-<li>
-<p><code>config add .vimrc</code></p>
-</li>
-<li>
-<p><code>config -m &quot;first commit&quot;</code></p>
-</li>
-<li>
-<p><code>config remote add origin &lt;url&gt;</code></p>
-</li>
-<li>
-<p><code>config push -u origin master</code></p>
-</li>
-</ul>
+<div class="alert alert-info">
+    <strong><code>config add .vimrc</code><br>
+<code>config -m &quot;first commit&quot;</code><br>
+<code>config remote add origin &lt;url&gt;</code><br>
+<code>config push -u origin master</code></strong>
+</div>
+
 <p>And done. On a side note: after defining the file completion in bash or zsh don&rsquo;t work anymore. For zsh this can be
 changed by simply adding the following line to your <code>.zshrc</code>:</p>
-<p><code>setopt complete_aliases</code></p>
+<div class="alert alert-info">
+    <strong><code>setopt complete_aliases</code></strong>
+</div>
+
 <p>For bash <a href="https://wiki.archlinux.org/title/Dotfiles">this Arch wiki entry</a> has some suggestions.</p>
 <p>To install the dotfiles on another machine a similar workflow applies.</p>
 <p>Clone your repo:</p>
-<p><code>git clone --bare &lt;url&gt; $HOME/.cfg</code></p>
+<div class="alert alert-info">
+    <strong><code>git clone --bare &lt;url&gt; $HOME/.cfg</code></strong>
+</div>
+
 <p>Define the alias as above, change config as above so untracked files are not shown.</p>
 <p>Checkout to move the files to their destinations:</p>
-<p><code>config checkout</code></p>
+<div class="alert alert-info">
+    <strong><code>config checkout</code></strong>
+</div>
+
 <p>The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted. If you&rsquo;re sure, you don&rsquo;t need any of the already present files, you can force the checkout:</p>
-<p><code>config checkout -f</code></p>
+<div class="alert alert-info">
+    <strong><code>config checkout -f</code></strong>
+</div>
+
 
         </div>
 

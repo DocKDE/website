@@ -19,34 +19,38 @@ I remember having read/heard about using bare git repositories quite a while bac
 
 Disclaimer: none of what I write here is my own idea so I don't take credit or responsibility. With that said, here goes:
 
-`git init --bare $HOME/.cfg`
-
-This initializes a bare git repo in a folder called `.cfg` (name is arbitrary of course), meaning it does not contain a working tree.
-
-Define an alias for using this repo:
-
-`alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
-
-This should be saved to whatever your shell config file is so you don't have to define this every time you open a terminal. It allows you to perform git commands for the defined repo when outside of it. It also defines the `$HOME` directory as your working tree and stores the history of it in `.cfg`. 
-
+{{<alert type="info">}} 
+`git init --bare $HOME/.cfg` \
+`alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'` \
 `config config --local status.showUntrackedFiles no`
+{{</alert>}}
 
-This changes the local git config so that untracked files are no longer shown. Otherwise every single file in your home folder would pop up here which we clearly are not interested in.
+That's basically all.
+
+The first command initializes a bare git repo in a folder called `.cfg` (name is arbitrary of course), meaning it does not contain a working tree.
+The second defines an alias for using this repo.
+
+This should be saved to whatever your shell config file is so you don't have to define this every time you open a 
+terminal. It allows you to perform git commands for the defined repo when outside of it. It also defines the `$HOME` 
+directory as your working tree and stores the history of it in `.cfg`. 
+
+The last line changes the local git config so that untracked files are no longer shown. Otherwise every single file in your home folder would pop up here which we clearly are not interested in.
 
 Now the repo can be added to, committed and pushed somewhere:
    
-   * `config add .vimrc`
-   
-   * `config -m "first commit"`
-   
-   * `config remote add origin <url>`
-   
-   * `config push -u origin master`
+{{<alert type="info">}} 
+`config add .vimrc` \
+`config -m "first commit"`\
+`config remote add origin <url>`\
+`config push -u origin master`
+{{</alert>}}
 
 And done. On a side note: after defining the file completion in bash or zsh don't work anymore. For zsh this can be
 changed by simply adding the following line to your `.zshrc`:
 
+{{<alert type="info">}} 
 `setopt complete_aliases`
+{{</alert>}}
 
 For bash [this Arch wiki entry](https://wiki.archlinux.org/title/Dotfiles) has some suggestions.
 
@@ -54,14 +58,20 @@ To install the dotfiles on another machine a similar workflow applies.
 
 Clone your repo: 
 
+{{<alert type="info">}} 
 `git clone --bare <url> $HOME/.cfg`
+{{</alert>}}
 
 Define the alias as above, change config as above so untracked files are not shown.
 
 Checkout to move the files to their destinations: 
 
+{{<alert type="info">}} 
 `config checkout`
+{{</alert>}}
 
 The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted. If you're sure, you don't need any of the already present files, you can force the checkout:
 
+{{<alert type="info">}} 
 `config checkout -f`
+{{</alert>}}
