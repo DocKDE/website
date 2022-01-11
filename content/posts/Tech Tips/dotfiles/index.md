@@ -43,24 +43,25 @@ Now the repo can be added to, committed and pushed somewhere:
    
    * `config push -u origin master`
 
-And done. 
+And done. On a side note: after defining the file completion in bash or zsh don't work anymore. For zsh this can be
+changed by simply adding the following line to your `.zshrc`:
 
-To install the dotfiles on another machine a similar workflow applies:
+`setopt complete_aliases`
 
-`echo ".cfg" .gitignore`
+For bash [this Arch wiki entry](https://wiki.archlinux.org/title/Dotfiles) has some suggestions.
 
-This adds the `.cfg` folder to the global gitignore file, otherwise it would try to track itself.
+To install the dotfiles on another machine a similar workflow applies.
 
 Clone your repo: 
 
 `git clone --bare <url> $HOME/.cfg`
 
-Define the alias as above
-
-Change config as above so untracked files are not shown
+Define the alias as above, change config as above so untracked files are not shown.
 
 Checkout to move the files to their destinations: 
 
 `config checkout`
 
-The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted.
+The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted. If you're sure, you don't need any of the already present files, you can force the checkout:
+
+`config checkout -f`

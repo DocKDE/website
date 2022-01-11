@@ -303,17 +303,18 @@
 <p><code>config push -u origin master</code></p>
 </li>
 </ul>
-<p>And done.</p>
-<p>To install the dotfiles on another machine a similar workflow applies:</p>
-<p><code>echo &quot;.cfg&quot; .gitignore</code></p>
-<p>This adds the <code>.cfg</code> folder to the global gitignore file, otherwise it would try to track itself.</p>
+<p>And done. On a side note: after defining the file completion in bash or zsh don&rsquo;t work anymore. For zsh this can be
+changed by simply adding the following line to your <code>.zshrc</code>:</p>
+<p><code>setopt complete_aliases</code></p>
+<p>For bash <a href="https://wiki.archlinux.org/title/Dotfiles">this Arch wiki entry</a> has some suggestions.</p>
+<p>To install the dotfiles on another machine a similar workflow applies.</p>
 <p>Clone your repo:</p>
 <p><code>git clone --bare &lt;url&gt; $HOME/.cfg</code></p>
-<p>Define the alias as above</p>
-<p>Change config as above so untracked files are not shown</p>
+<p>Define the alias as above, change config as above so untracked files are not shown.</p>
 <p>Checkout to move the files to their destinations:</p>
 <p><code>config checkout</code></p>
-<p>The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted.</p>
+<p>The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted. If you&rsquo;re sure, you don&rsquo;t need any of the already present files, you can force the checkout:</p>
+<p><code>config checkout -f</code></p>
 
         </div>
 
