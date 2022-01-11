@@ -45,7 +45,7 @@ Now the repo can be added to, committed and pushed somewhere:
 `config push -u origin master`
 {{</alert>}}
 
-And done. On a side note: after defining the file completion in bash or zsh don't work anymore. For zsh this can be
+And done. On a side note: after defining the file completion in bash or zsh doesn't work anymore. For zsh this can be
 changed by simply adding the following line to your `.zshrc`:
 
 {{<alert type="info">}} 
