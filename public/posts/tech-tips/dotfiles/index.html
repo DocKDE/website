@@ -281,22 +281,15 @@
 <p>There are many ways and quite a few dedicated tools to achieve this. You could symlink everything to a central place and use version control to keep track of the files. I have seen people use gnu <code>stow</code> or something like <code>chezmoi</code> or <code>yadm</code> but somehow none of these ever really clicked with me.</p>
 <p>I remember having read/heard about using bare git repositories quite a while back but I couldn&rsquo;t make sense of it back then or the tutorials I found were weird, I don&rsquo;t quite remember. Today, however, I once again hazarded a look at the results of my favourite search engine concerning this topic and voilà: I found what I needed.</p>
 <p>Disclaimer: none of what I write here is my own idea so I don&rsquo;t take credit or responsibility. With that said, here goes:</p>
-<ol>
-<li><code>git init --bare $HOME/.cfg</code></li>
-</ol>
+<p><code>git init --bare $HOME/.cfg</code></p>
 <p>This initializes a bare git repo in a folder called <code>.cfg</code> (name is arbitrary of course), meaning it does not contain a working tree.</p>
-<ol start="2">
-<li>Define an alias for using this repo: <code>alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'</code></li>
-</ol>
+<p>Define an alias for using this repo:</p>
+<p><code>alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'</code></p>
 <p>This should be saved to whatever your shell config file is so you don&rsquo;t have to define this every time you open a terminal. It allows you to perform git commands for the defined repo when outside of it. It also defines the <code>$HOME</code> directory as your working tree and stores the history of it in <code>.cfg</code>.</p>
-<ol start="3">
-<li><code>config config --local status.showUntrackedFiles no</code></li>
-</ol>
+<p><code>config config --local status.showUntrackedFiles no</code></p>
 <p>This changes the local git config so that untracked files are no longer shown. Otherwise every single file in your home folder would pop up here which we clearly are not interested in.</p>
-<ol start="4">
-<li>
-<p>Now the repo can be added to, committed and pushed somwhere:</p>
-<ol>
+<p>Now the repo can be added to, committed and pushed somewhere:</p>
+<ul>
 <li>
 <p><code>config add .vimrc</code></p>
 </li>
@@ -309,29 +302,17 @@
 <li>
 <p><code>config push -u origin master</code></p>
 </li>
-</ol>
-</li>
-</ol>
+</ul>
 <p>And done.</p>
 <p>To install the dotfiles on another machine a similar workflow applies:</p>
-<ol>
-<li><code>echo &quot;.cfg&quot; .gitignore</code></li>
-</ol>
+<p><code>echo &quot;.cfg&quot; .gitignore</code></p>
 <p>This adds the <code>.cfg</code> folder to the global gitignore file, otherwise it would try to track itself.</p>
-<ol start="2">
-<li>
-<p>Clone your repo: <code>git clone --bare &lt;url&gt; $HOME/.cfg</code></p>
-</li>
-<li>
+<p>Clone your repo:</p>
+<p><code>git clone --bare &lt;url&gt; $HOME/.cfg</code></p>
 <p>Define the alias as above</p>
-</li>
-<li>
-<p>Change configas above so untracked files are not shown</p>
-</li>
-<li>
-<p>Checkout to move the files to their destinations: <code>config checkout</code></p>
-</li>
-</ol>
+<p>Change config as above so untracked files are not shown</p>
+<p>Checkout to move the files to their destinations:</p>
+<p><code>config checkout</code></p>
 <p>The last step will throw an error if some of the files already exist. In that case they need to be moved somewhere else or deleted.</p>
 
         </div>
