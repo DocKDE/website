@@ -6,7 +6,17 @@
     <description>Recent content in Tech Notes on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/posts/tech-tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bfloeser.netlify.com/posts/tech-tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Python virtual environments</title>
+      <link>https://bfloeser.netlify.com/posts/tech-tips/venv/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/tech-tips/venv/</guid>
+      <description>Whenever you start a project in Python you probably want to do it in a fresh environment so as not to have your dependencies clash with those of other projects, prevent version mismatch or other unexpected breakage.
+The way to do this is by using virtual environments. As far as I know there are several ways to do this in Python (as always&amp;hellip;) but the most prevalent, it seems to me, is using the builtin venv module.</description>
+    </item>
+    
     <item>
       <title>Managing dotfiles with bare git repo</title>
       <link>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</link>

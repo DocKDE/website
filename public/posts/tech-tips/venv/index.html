@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Introduction</title>
+    <title>Working with Python virtual environments</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -32,18 +32,19 @@
 
   <link rel="icon" type="image/png" href="/images/site/logolite_hu7e96301cf103bc119b19f5a246bceea0_113023_42x0_resize_box_3.png" />
 
-<meta property="og:title" content="Introduction" />
-<meta property="og:description" content="Introduction" />
+<meta property="og:title" content="Working with Python virtual environments" />
+<meta property="og:description" content="Whenever you start a project in Python you probably want to do it in a fresh environment so as not to have your dependencies clash with those of other projects, prevent version mismatch or other unexpected breakage.
+The way to do this is by using virtual environments. As far as I know there are several ways to do this in Python (as always&hellip;) but the most prevalent, it seems to me, is using the builtin venv module." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://bfloeser.netlify.com/posts/introduction/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-09-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-09-01T00:00:00+00:00" />
+<meta property="og:url" content="https://bfloeser.netlify.com/posts/tech-tips/venv/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-09T00:00:00+00:00" />
 
 
 
     
     
-<meta name="description" content="Introduction" />
+<meta name="description" content="Working with Python virtual environments" />
 
   
   
@@ -90,29 +91,6 @@
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
       
-        
-
-  
-
-
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      
-      <span class="flag-icon flag-icon-gb"></span>
-      English
-    </a>
-    <div class="dropdown-menu" aria-labelledby="languageSelector">
-      
-        <a class="dropdown-item nav-link languages-item" href="/de/posts/introduction">
-          
-          <span class="flag-icon flag-icon-de"></span>
-          Deutsch
-        </a>
-      
-    </div>
-</li>
-
-      
       </ul>
     </div>
   </div>
@@ -140,12 +118,9 @@
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/introduction/" title="Introduction">Introduction</a></li>
+    <li><a class="" href="/posts/introduction/" title="Introduction">Introduction</a></li>
   
 
   
@@ -236,12 +211,15 @@
   
   
   
+    
+    
+  
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/tech-tips/">Tech Notes</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/tech-tips/">Tech Notes</a>
       
-      <ul class="">
+      <ul class="active">
         
   
   
@@ -265,9 +243,12 @@
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/tech-tips/venv/" title="Python venv">Python venv</a></li>
+    <li><a class="active" href="/posts/tech-tips/venv/" title="Python venv">Python venv</a></li>
   
 
 
@@ -301,24 +282,45 @@
         
 
         <div class="title">
-          <h1 >Introduction</h1>
-          <p>September 1, 2021</p>
+          <h1 >Working with Python virtual environments</h1>
+          <p>February 9, 2022</p>
         </div>
         
         <div class="post-content" id="post-content">
-          <h3 id="hello-world">Hello world</h3>
-<p>Dear reader,
-I finally made it! Although I have basically no experience with web development, here is
-my personal website. I&rsquo;m quite excited about this and it&rsquo;s going to be interesting to see
-where it takes me. Of course I&rsquo;d like to take all the credit but the truth is that there
-are software and services out there that make this kind of endeavour relatively easy and painless.<br>
-With that said, a big shout-out to <a href="https://gohugo.io">Hugo</a> and the creator of this particular theme, <a href="https://github.com/hugo-toha/toha">Toha</a>!</p>
-<h3 id="what-this-is">What this is</h3>
-<p>This blog and all the posts in it first and foremost reflect my thoughts and experiences on various topics. Most of them will be concerned with the software I try out and use since I&rsquo;m passionate about that and need a place to share it.</p>
-<p>However, I&rsquo;m also vocal about privacy, especially online. If some of my posts seem like doomsaying or fear-mongering, please forgive me but I do believe there is reason for concern when it comes to this.</p>
-<p>If you have any suggestions or questions, feel free to reach out to me in any of the ways available on this site.</p>
-<h3 id="what-this-isnt">What this isn&rsquo;t</h3>
-<p>This is not meant as a space for me to preach anything to anyone. If what you read here is interesting for you, that&rsquo;s great. If not, that&rsquo;s also fine. But please be aware that this page does not exist to convince you of anything and there&rsquo;s a reason why this site does not feature a comment section or the possibility for external people to post.</p>
+          <p>Whenever you start a project in Python you probably want to do it in a fresh environment so as
+not to have your dependencies clash with those of other projects, prevent version mismatch or
+other unexpected breakage.</p>
+<p>The way to do this is by using virtual environments. As far as I know there are several ways to
+do this in Python (as always&hellip;) but the most prevalent, it seems to me, is using the builtin <code>venv</code>
+module.</p>
+<p>Since I&rsquo;m prone to forgetting the syntax and exact setup of such a thing, here&rsquo;s a walkthrough of
+how to go about this that may also serve as a cheat sheet, most of all for future me.</p>
+<p>Best practices are as follows:</p>
+<ol>
+<li>Create a new folder for your project</li>
+<li>Create a new virtual environment with: <code>python3 -m venv [path_to_project]/venv</code>
+This will create an environment called <code>venv</code> inside your project root directory.</li>
+<li>Activate the environemnt with <code>source [path_to_project]/venv/bin/activate</code></li>
+<li>Install any necessary dependencies with <code>pip install [package_names]</code></li>
+<li>Start coding</li>
+</ol>
+<p>For deactivating the environment again you can simply type <code>deactivate</code>.</p>
+<p>The <code>venv</code> folder holding the environment should not be edited manually. Also the project files
+do not go in there, they sit next to it in the project root folder.
+This ensures that the environment stays clean and portable so you can tear it down and rebuild it
+or distribute it to others.</p>
+<p>Also, if you&rsquo;re using version control (which you should for any half-serious project), make sure to
+exclude the <code>venv</code> folder from it. When using, e.g., <code>git</code> this amounts to adding <code>venv</code> to your
+<code>.gitignore</code> file. Otherwise you&rsquo;ll just pollute whatever online repo you push to with a lot of
+unnecessary stuff.</p>
+<p>To ensure portability, create a list of all locally installed dependencies with
+<code>pip freeze &gt; requirements.txt</code>
+Obviously, you can direct the output to another file or do whatever with it but this is the convention.</p>
+<p>When setting up a new environment you can then do <code>pip install -r requirements.txt</code> to restore the state
+of your previous or someone else&rsquo;s environment.</p>
+<p>Note, however, that the Python version within your environment will be the same as the version you used
+to create it, which will usually be your system-wide version.</p>
+<p>That&rsquo;s all there is to it to be productive with this. Have fun.</p>
 
         </div>
 
@@ -342,45 +344,43 @@ With that said, a big shout-out to <a href="https://gohugo.io">Hugo</a> and the 
 
 
   
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
     
     
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
   
   
 
 
 <div class="row next-prev-navigator">
   
+    <div class="col-md-6 previous-article">
+      <a href="/posts/tech-tips/dotfiles/" title="Managing dotfiles with bare git repo" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Managing dotfiles with bare git repo</div>
+      </a>
+    </div>
   
-      
-      
-      <div class="col-md-12 next-article">
-        <a href="/posts/gaming/gothic2/" title="How to run Gothic 2 on Linux" class="btn btn-outline-info">
-          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">How to run Gothic 2 on Linux</div>
-        </a>
-      </div>
-    
+  
 </div>
 
       <hr />
@@ -391,29 +391,6 @@ With that said, a big shout-out to <a href="https://gohugo.io">Hugo</a> and the 
   </div>
   
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  
-    
-
-    
-
-
-<div class="dropdown languageSelector">
-    <a class="btn dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        
-        <img class="flag" src="https://www.countryflags.io/gb/flat/16.png" alt="gb">
-        English
-    </a>
-    <div class="dropdown-menu" aria-labelledby="languageSelector">
-        
-        <a class="dropdown-item nav-link languages-item" href="/de/posts/introduction">
-            
-            <img class="flag" src="https://www.countryflags.io/de/flat/24.png" alt="de">
-            Deutsch
-        </a>
-        
-    </div>
-</div>
-
   
 </section>
 

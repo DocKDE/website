@@ -105,7 +105,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://bfloeser.netlify.com/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -117,11 +117,8 @@
                 href="https://bfloeser.netlify.com/"
                 />
   </url><url>
-    <loc>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bfloeser.netlify.com/tags/multi-lingual/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -134,7 +131,7 @@
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/posts/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -147,7 +144,7 @@
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/tags/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -160,7 +157,7 @@
                 />
   </url><url>
     <loc>https://bfloeser.netlify.com/posts/tech-tips/</loc>
-    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -171,6 +168,12 @@
                 hreflang="en"
                 href="https://bfloeser.netlify.com/posts/tech-tips/"
                 />
+  </url><url>
+    <loc>https://bfloeser.netlify.com/posts/tech-tips/venv/</loc>
+    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bfloeser.netlify.com/posts/tech-tips/dotfiles/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bfloeser.netlify.com/posts/software/rust/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
