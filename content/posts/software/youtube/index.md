@@ -1,6 +1,6 @@
 ---
 title: "Migrating my YouTube video consumption to the command line (and on digital minimalism)"
-date: 2021-12-21
+date: 2022-02-10
 menu:
   sidebar:
     name: Terminal YouTube 
