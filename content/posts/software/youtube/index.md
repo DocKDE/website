@@ -69,7 +69,10 @@ users to leverage all the RSS ecosystems including all the available application
 I chose [`newsboat`](https://newsboat.org/), a terminal-based one. I added the appropriate URLs for all
 the channels I'm interested in and set up [`mpv`](https://mpv.io/) as "browser" to open the respective links.
 `mpv` is a terminal-based video player that supports streaming videos from the internet when called with
-a URL. Setting it as the browser application for newsboat results in the video being streamed when opening
+a URL. By default it uses [`youtube-dl`](https://github.com/ytdl-org/youtube-dl) as a backend to achieve
+this, however, I configured it to use a fork of `youtube-dl`, [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) 
+instead. 
+Setting it as the browser application for newsboat results in the video being streamed when opening
 the URL. Obviously this precluded using newsboat for any other non-video-streaming RSS feeds but that's fine 
 for me as I don't consume RSS feeds otherwise.
 2. For the second use case I came across [`ytfzf`](https://github.com/pystardust/ytfzf) which is a shell 
