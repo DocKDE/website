@@ -44,7 +44,7 @@ exclude the `venv` folder from it. When using, e.g., `git` this amounts to addin
 unnecessary stuff.
 
 To ensure portability, create a list of all locally installed dependencies with 
-`pip freeze > requirements.txt`
+`pip freeze > requirements.txt`.
 Obviously, you can direct the output to another file or do whatever with it but this is the convention.
 
 When setting up a new environment you can then do `pip install -r requirements.txt` to restore the state
