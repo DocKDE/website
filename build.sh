@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# Usage: First command line argument will be git commit message
+# Usage: All arguments passed to the script will be interpreted as the commit message
 
 rm -r public && hugo
 git add -A
-git commit -m $1
+git commit -m "@$"
 git subtree push --prefix public origin master
 git push github master

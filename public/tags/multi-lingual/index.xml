@@ -36,6 +36,16 @@ The way to do this is by using virtual environments. As far as I know there are 
     </item>
     
     <item>
+      <title>Migrating my YouTube video consumption to the command line (and on digital minimalism)</title>
+      <link>https://bfloeser.netlify.com/posts/software/youtube/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/software/youtube/</guid>
+      <description>I&amp;rsquo;ve recently realized something. My use of the Linux operating system and all it offers has been evolving in something of a wave-like pattern.
+When I started out, the first thing I tried was Linux Mint which is something a former Windows user might do as it works in a fairly familiar way. I quickly realized that I wanted to dive deeper and do more things than what Mint let me do easily.</description>
+    </item>
+    
+    <item>
       <title>My Experience with Rust</title>
       <link>https://bfloeser.netlify.com/posts/software/rust/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
