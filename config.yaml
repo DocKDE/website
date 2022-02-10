@@ -24,8 +24,8 @@ params:
   # fonts: true
 
   logo:
-  #   main: "images/site/logo.png"
-  #   inverted: "images/site/logolite.png"
+    main: "images/site/logo.png"
+    inverted: "images/site/logolite.png"
     favicon: "images/site/logolite.png"
 
   features:

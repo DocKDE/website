@@ -233,13 +233,6 @@ projects:
   logo: /images/sections/software/marktext.jpg
   summary: Funktionsreicher Markdown-Editor, der auf ablenkungsfreies Schreiben ausgerichtet ist.
   tags: ["professional", "personal", "desktop", "text_editing"]
-- name: vim/neovim
-  role: Texteditor
-  logo: /images/sections/software/neovim2.png
-  summary: Universaler Texteditor für alle Zwecke. Hat eine steile Lernkurve aber sehr konfigurierbar und nützlich.
-  url: https://neovim.io/
-  tags: ["professional", "personal", "desktop", "text_editing"]
-
 
 # Social
 - name: Freetube

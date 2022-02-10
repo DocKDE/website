@@ -1,7 +1,6 @@
 ---
 title: "How it all started"
 date: 2021-09-01
-hero: start.jpg
 menu:
   sidebar:
     name: How it started

@@ -23,6 +23,8 @@
 }
 
 .sidebar-tree {
+  /* use this if no search bar is present*/
+  padding-top: 1rem;
   padding-left: 1rem;
   position: relative;
   width: -webkit-max-content;

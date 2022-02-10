@@ -7,34 +7,34 @@
   {{ $blogEnabled = true }}
 {{ end }}
 
-{{/* by default, don't use any logo */}}
-{{ $mainLogo := "" }}
-{{ $invertedLogo := "" }}
+<!-- {{/* by default, don't use any logo */}} -->
+<!-- {{ $mainLogo := "" }} -->
+<!-- {{ $invertedLogo := "" }} -->
 
-{{/*  if custom logo has been provided, use them  */}}
-{{ if site.Params.logo.main }}
-  {{ $mainLogo = site.Params.logo.main }}
-{{ end }}
-{{ if site.Params.logo.inverted }}
-  {{ $invertedLogo = site.Params.logo.inverted }}
-{{ end }}
+<!-- {{/*  if custom logo has been provided, use them  */}} -->
+<!-- {{ if site.Params.logo.main }} -->
+<!--   {{ $mainLogo = site.Params.logo.main }} -->
+<!-- {{ end }} -->
+<!-- {{ if site.Params.logo.inverted }} -->
+<!--   {{ $invertedLogo = site.Params.logo.inverted }} -->
+<!-- {{ end }} -->
 
-{{/* resize the logos. don't resize svg because it is not supported */}}
-{{ if $mainLogo }}
-  {{ $mainLogo = resources.Get $mainLogo}}
-  {{ if and $mainLogo (ne $mainLogo.MediaType.SubType "svg") }}
-    {{ $mainLogo = $mainLogo.Resize "42x" }}
-  {{ end }}
-  {{ $mainLogo = $mainLogo.RelPermalink}}
-{{ end }}
+<!-- {{/* resize the logos. don't resize svg because it is not supported */}} -->
+<!-- {{ if $mainLogo }} -->
+<!--   {{ $mainLogo = resources.Get $mainLogo}} -->
+<!--   {{ if and $mainLogo (ne $mainLogo.MediaType.SubType "svg") }} -->
+<!--     {{ $mainLogo = $mainLogo.Resize "42x" }} -->
+<!--   {{ end }} -->
+<!--   {{ $mainLogo = $mainLogo.RelPermalink}} -->
+<!-- {{ end }} -->
 
-{{ if $invertedLogo }}
-  {{ $invertedLogo = resources.Get $invertedLogo}}
-  {{ if and $invertedLogo (ne $invertedLogo.MediaType.SubType "svg")}}
-    {{ $invertedLogo = $invertedLogo.Resize "42x" }}
-  {{ end }}
-  {{ $invertedLogo = $invertedLogo.RelPermalink}}
-{{ end }}
+<!-- {{ if $invertedLogo }} -->
+<!--   {{ $invertedLogo = resources.Get $invertedLogo}} -->
+<!--   {{ if and $invertedLogo (ne $invertedLogo.MediaType.SubType "svg")}} -->
+<!--     {{ $invertedLogo = $invertedLogo.Resize "42x" }} -->
+<!--   {{ end }} -->
+<!--   {{ $invertedLogo = $invertedLogo.RelPermalink}} -->
+<!-- {{ end }} -->
 
 {{ $customMenus := site.Params.customMenus }}
 {{ if (index site.Data site.Language.Lang).site.customMenus }}
@@ -48,12 +48,12 @@
 
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
-    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-      {{ if $invertedLogo }}
-        <img src="{{ $invertedLogo }}" id="logo" alt="Logo">
-      {{ end }}
-      {{- site.Title -}}
-    </a>
+    <!-- <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"> -->
+    <!--   {{ if $invertedLogo }} -->
+    <!--     <img src="{{ $invertedLogo }}" id="logo" alt="Logo"> -->
+    <!--   {{ end }} -->
+    <!--   {{- site.Title -}} -->
+    <!-- </a> -->
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
@@ -125,10 +125,10 @@
     </div>
   </div>
   <!-- Store the logo information in a hidden img for the JS -->
-  {{ if $mainLogo }}
-    <img src="{{ $mainLogo }}" class="d-none" id="main-logo" alt="Logo">
-  {{ end }}
-  {{ if $invertedLogo }}
-    <img src="{{ $invertedLogo }}" class="d-none" id="inverted-logo" alt="Inverted Logo">
-  {{ end }}
+  <!-- {{ if $mainLogo }} -->
+  <!--   <img src="{{ $mainLogo }}" class="d-none" id="main-logo" alt="Logo"> -->
+  <!-- {{ end }} -->
+  <!-- {{ if $invertedLogo }} -->
+  <!--   <img src="{{ $invertedLogo }}" class="d-none" id="inverted-logo" alt="Inverted Logo"> -->
+  <!-- {{ end }} -->
 </nav>

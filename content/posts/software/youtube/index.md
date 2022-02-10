@@ -17,7 +17,7 @@ in something of a wave-like pattern.
 When I started out, the first thing I tried was Linux Mint which is something a former Windows user might do
 as it works in a fairly familiar way. I quickly realized that I wanted to dive deeper and do more things
 than what Mint let me do easily. In hindsight that's probably in large part due to me not knowing much
-about what I was doing but I do remember that I felt constricted and startet distrohopping.
+about what I was doing but I do remember that I felt constricted and started distrohopping.
 
 I went through a few distros and eventually ended up with Arch. I know, it's a cliché. But the 
 philosophy of Arch resonated with me. I had, by that time, become fed up with how bloated Windows had become

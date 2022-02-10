@@ -232,12 +232,6 @@ projects:
   logo: /images/sections/software/marktext.jpg
   summary: Feature-rich and distraction-free markdown editor.
   tags: ["professional", "personal", "desktop", "text_editing"]
-- name: vim/neovim
-  role: Text editor
-  logo: /images/sections/software/neovim2.png
-  summary: General purpose keyboard-centric text editor. Has a learning curve but is very customizable and powerful.
-  url: https://neovim.io/
-  tags: ["professional", "personal", "desktop", "text_editing"]
 
 # Social
 - name: Freetube
