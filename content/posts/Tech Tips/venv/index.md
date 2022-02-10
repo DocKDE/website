@@ -27,7 +27,7 @@ Best practices are as follows:
 1. Create a new folder for your project
 2. Create a new virtual environment with: `python3 -m venv [path_to_project]/venv`
 This will create an environment called `venv` inside your project root directory.
-3. Activate the environemnt with `source [path_to_project]/venv/bin/activate`
+3. Activate the environment with `source [path_to_project]/venv/bin/activate`
 4. Install any necessary dependencies with `pip install [package_names]`
 5. Start coding
 
