@@ -84,7 +84,8 @@ videos and the like.
 3. This use case is very easy to satisfy. I can just copy the URL of the video in question and call
 `mpv` with it as argument. I also set up a keyboard shortcut to call `rofi` and handle this because I like 
 the looks of `rofi`, I could also just do this in the terminal. However, doing it like this also reduces the
-number of terminal windows I have open.
+number of terminal windows I have open. A big upside here is that this works not only for YouTube links.
+I did not do extensive research about this but at least Twitch links work as well which is a nice bonus.
 4. For listening to music, one can just pass the appropriate option (`-m`) to `ytfzf` which will then proceed
 to stream the audio stream of the video via `mpv`.
 
