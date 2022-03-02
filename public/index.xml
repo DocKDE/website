@@ -356,6 +356,15 @@ In essence you have to deal with the setup you&amp;rsquo;d do in Windows (which 
     </item>
     
     <item>
+      <title>Commit to someone else&#39;s pull request</title>
+      <link>https://bfloeser.netlify.com/posts/tech-tips/git_other_pr/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bfloeser.netlify.com/posts/tech-tips/git_other_pr/</guid>
+      <description>I&amp;rsquo;m currently experiencing the pleasure of collaborating on an open source project with someone else on GitHub and I love doing it. There was an issue with runtime performance and we looked into it, discussed ideas and coded up several prototypic solutions (I admit mine were rather dirty). At one point I reviewed someone else&amp;rsquo;s pull request and wanted to add something to it. Sure, I can use the online editing features of GitHub but that doesn&amp;rsquo;t really tie in well with my code-writing workflow, not to mention that all the autocompletion, linting and inline compiler errors won&amp;rsquo;t be present.</description>
+    </item>
+    
+    <item>
       <title>Running a script on conda activate</title>
       <link>https://bfloeser.netlify.com/posts/tech-tips/conda/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
