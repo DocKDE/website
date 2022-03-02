@@ -340,15 +340,31 @@ So I looked for a way to push a commit to someone else&rsquo;s pull request that
 searched and found a good solution which I&rsquo;m gonna write up here as reference for future me.</p>
 <p>Note: everything in square brackets needs to be substituted by appropriate values, same content of bracket
 indicates that the same subsituted value is necessary.</p>
-<ol>
+<ul>
 <li>If you haven&rsquo;t already done so, clone the repository. It doesn&rsquo;t matter whether it&rsquo;s the
 original one or your fork.</li>
-<li>Add a remote for your local copy: <code>git remote add [arbitrary remote name] [URL of repo]</code></li>
-<li>Fetch the branch of interest from the remote: <code>git fetch [arbitrary remote name] [branch name]</code></li>
-<li>Create and check out to a matching local branch: <code>git checkout -b [new local branch name] [arbitrary remote name]/[branch name]</code></li>
+<li>Add a remote for your local copy:
+<div class="alert alert-info">
+    <strong><code>git remote add [arbitrary remote name] [URL of repo]</code></strong>
+</div>
+</li>
+<li>Fetch the branch of interest from the remote:
+<div class="alert alert-info">
+    <strong><code>git fetch [arbitrary remote name] [branch name]</code></strong>
+</div>
+</li>
+<li>Create and check out to a matching local branch:
+<div class="alert alert-info">
+    <strong><code>git checkout -b [new local branch name] [arbitrary remote name]/[branch name]</code></strong>
+</div>
+</li>
 <li>Add whatever changes you want.</li>
-<li>Push to remote <code>git push [arbitrary remote name] HEAD:[branch name]</code></li>
-</ol>
+<li>Push to remote:
+<div class="alert alert-info">
+    <strong><code>git push [arbitrary remote name] HEAD:[branch name]</code></strong>
+</div>
+</li>
+</ul>
 <p>Depending on your purpose you may want to squash the commit you made into the previous one. In my case
 I didn&rsquo;t.</p>
 

@@ -24,12 +24,21 @@ how to go about this that may also serve as a cheat sheet, most of all for futur
 
 Best practices are as follows:
 
-1. Create a new folder for your project
-2. Create a new virtual environment with: `python3 -m venv [path_to_project]/venv`
-This will create an environment called `venv` inside your project root directory.
-3. Activate the environment with `source [path_to_project]/venv/bin/activate`
-4. Install any necessary dependencies with `pip install [package_names]`
-5. Start coding
+- Create a new folder for your project
+- Create a new virtual environment with: 
+{{<alert type="info">}} 
+`python3 -m venv [path_to_project]/venv`
+{{</alert>}}
+- This will create an environment called `venv` inside your project root directory.
+ Activate the environment:
+{{<alert type="info">}} 
+`source [path_to_project]/venv/bin/activate`
+{{</alert>}}
+- Install any necessary dependencies with 
+{{<alert type="info">}} 
+`pip install [package_names]`
+{{</alert>}}
+- Start coding
 
 For deactivating the environment again you can simply type `deactivate`.
 
@@ -43,12 +52,17 @@ exclude the `venv` folder from it. When using, e.g., `git` this amounts to addin
 `.gitignore` file. Otherwise you'll just pollute whatever online repo you push to with a lot of 
 unnecessary stuff.
 
-To ensure portability, create a list of all locally installed dependencies with 
-`pip freeze > requirements.txt`.
+To ensure portability, create a list of all locally installed dependencies with:
+{{<alert type="info">}} 
+`pip freeze > requirements.txt`
+{{</alert>}}
 Obviously, you can direct the output to another file or do whatever with it but this is the convention.
 
-When setting up a new environment you can then do `pip install -r requirements.txt` to restore the state
-of your previous or someone else's environment.
+When setting up a new environment you can then do
+{{<alert type="info">}} 
+`pip install -r requirements.txt` 
+{{</alert>}}
+to restore the state of your previous or someone else's environment.
 
 Note, however, that the Python version within your environment will be the same as the version you used
 to create it, which will usually be your system-wide version.

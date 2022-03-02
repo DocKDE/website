@@ -24,6 +24,8 @@ workflow otherwise.
 
 Solution: it's possible to have conda source a (shell) script that is only run when it's actually activated. So put
 whatever commands you want (e.g. for setting environment variables) into a small script and place it in 
-``` [path_to_your_conda]/envs/[conda env name]/etc/conda/activate.d ```
+{{<alert type="info">}} 
+`[path_to_your_conda]/envs/[conda env name]/etc/conda/activate.d`
+{{</alert>}}
 
 Done. When you next fire up that env the script will be sourced.

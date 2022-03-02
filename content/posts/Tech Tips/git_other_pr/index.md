@@ -24,13 +24,25 @@ searched and found a good solution which I'm gonna write up here as reference fo
 Note: everything in square brackets needs to be substituted by appropriate values, same content of bracket
 indicates that the same subsituted value is necessary.
 
-1. If you haven't already done so, clone the repository. It doesn't matter whether it's the
+- If you haven't already done so, clone the repository. It doesn't matter whether it's the
 original one or your fork. 
-2. Add a remote for your local copy: `git remote add [arbitrary remote name] [URL of repo]` 
-3. Fetch the branch of interest from the remote: `git fetch [arbitrary remote name] [branch name]`
-4. Create and check out to a matching local branch: `git checkout -b [new local branch name] [arbitrary remote name]/[branch name]`
-5. Add whatever changes you want.
-6. Push to remote `git push [arbitrary remote name] HEAD:[branch name]`
+- Add a remote for your local copy: 
+{{<alert type="info">}} 
+`git remote add [arbitrary remote name] [URL of repo]` 
+{{</alert>}}
+- Fetch the branch of interest from the remote: 
+{{<alert type="info">}} 
+`git fetch [arbitrary remote name] [branch name]`
+{{</alert>}}
+- Create and check out to a matching local branch: 
+{{<alert type="info">}} 
+`git checkout -b [new local branch name] [arbitrary remote name]/[branch name]`
+{{</alert>}}
+- Add whatever changes you want.
+- Push to remote:
+{{<alert type="info">}} 
+`git push [arbitrary remote name] HEAD:[branch name]`
+{{</alert>}}
 
 Depending on your purpose you may want to squash the commit you made into the previous one. In my case
 I didn't.
