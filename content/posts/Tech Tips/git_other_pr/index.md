@@ -1,6 +1,6 @@
 ---
 title: "Commit to someone else's pull request"
-date: 2021-10-22
+date: 2021-03-02
 menu:
   sidebar:
     name: commit to other PR
