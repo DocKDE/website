@@ -30,9 +30,9 @@ params:
 
   features:
     blog:
-      enable: True
+      enable: False
       # shareButtons:
-      email: True
+      # email: True
 
   # enableTOC: true
   enableTags: false
