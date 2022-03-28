@@ -7,17 +7,42 @@ section:
 
 skills:
 - name: Computational Chemistry
+  logo: images/site/logolite.png
   summary: Several years of experience with DFT, semiempirical and wave function methods for calculation of geometric and electronic structures of small and medium sized transition metal complexes as well as proteins. Focus on calculation of spectroscopic properties such as parameters for vibrational, optical, X-ray, EPR, NMR and Mößbauer spectroscopy.
 
 - name: Chemistry software
-  summary: Extensive experience with a wide array of computional chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analysis as well as visualization software (PyMol, VMD, Avogadro, Chemcraft etc.).
+  logo: /images/sections/skills/chemistry.svg
+  summary: Capable of setting up and using a wide array of computaional chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analyzing as well as vizualising the results (PyMol, VMD, Avogadro, Chemcraft, matplotlib) for presentation.
 
-- name: Coding
-  summary: Experience with Rust, Python and bash for various small to medium-sized projects. I am familiar with git as versioning system and use it in conjunction with several git hosting platforms. I am also one of the maintainers of a work-related git software repository.
+- name: Python
+  logo: /images/sections/skills/python2.png
+  url: https://www.python.org/
+  summary: Experience in scripting, data analysis, vizualisation, writing command-line tools, GUIs and contributions to a larger-scale project.
+
+- name: Rust
+  url: https://www.rust-lang.org/
+  logo: /images/sections/skills/rust2.png
+  summary: Learning to broaden my horizon and challenge myself as a programmer. Using for writing high-performance command-line tool for processing PDB files. Capable of writing testable, maintainable tools and contributing to community libraries.
+
+- name: Go
+  url: https://go.dev/
+  logo: /images/sections/skills/go.png
+  summary: Basic knowledge of language features. 
+
+- name: Web Development
+  logo: /images/sections/skills/html2.png
+  summary: Basic knowledge of HTML5 and CSS, capable of creating or editing and styling static web pages.
+
+- name: Git
+  url: https://git-scm.com/
+  logo: /images/sections/skills/git2.png
+  summary: Experience with git-based development workflows as a solo developer or in a small team. Familiar with GitHub, Gitlab or Codeberg as code forges.
 
 - name: Operating Systems
-  summary: Familiar with Windows and Linux as main operating systems with the latter being my preferred daily driver for the last few years. I have used many different Linux distributions and am aquainted with their characteristics.
+  logo: /images/sections/skills/server.svg
+  summary: Familiar with Linux and Windows as main operating systems and able to perform routine computing tasks with both and non-routine tasks with Linux. Used to setting up and maintaining a development environment on Linux.
 
-- name: System Administration
-  summary: Several years of hosting and administrating several home servers for family file storage, communication platforms, network traffic filtering and more. As such I'm familiar with manual configuration and command line workflows.
+- name: Linux System Administration
+  logo: /images/sections/skills/linux2.png
+  summary: Several years of experience with home servers. Capable of configuring, maintaining, updating and running Linux machines for server projects and automating tasks with (shell) scripts.
 

@@ -1,5 +1,5 @@
 section:
-  name: Uses
+  name: Projects
   id: projects
   enable: true
   weight: 5
@@ -12,290 +12,346 @@ buttons:
   filter: "professional"
 - name: Personal
   filter: "personal"
-- name: Desktop
-  filter: "desktop"
-- name: Mobile
-  filter: "mobile"
-- name: Chemistry
-  filter: "chemistry"
-- name: OS
-  filter: "os"
-- name: Communication
-  filter: "communication"
-- name: Browser
-  filter: "browser"
-- name: Coding
-  filter: "coding"
-- name: Productivity
-  filter: "productivity"
-- name: Image Editing
-  filter: "image_editing"
-- name: Synchronization
-  filter: "synchronization"
-- name: Text Editing
-  filter: "text_editing"
-- name: Social
-  filter: "social"
-- name: Security
-  filter: "security"
-- name: Misc.
-  filter: "misc"
+# - name: Desktop
+#   filter: "desktop"
+# - name: Mobile
+#   filter: "mobile"
+# - name: Chemistry
+#   filter: "chemistry"
+# - name: OS
+#   filter: "os"
+# - name: Communication
+#   filter: "communication"
+# - name: Browser
+#   filter: "browser"
+# - name: Coding
+#   filter: "coding"
+# - name: Productivity
+#   filter: "productivity"
+# - name: Image Editing
+#   filter: "image_editing"
+# - name: Synchronization
+#   filter: "synchronization"
+# - name: Text Editing
+#   filter: "text_editing"
+# - name: Social
+#   filter: "social"
+# - name: Security
+#   filter: "security"
+# - name: Misc.
+#   filter: "misc"
 
 projects:
+  - name: pdbman
+    role: Developer
+    timeline: "March 2021 - Present"
+    logo: /images/sections/skills/rust.png
+    url: https://codeberg.org/theDoctor/pdbman
+    summary: Prepare PDB files for use in ORCA QM/MM calculations
+    tags: ["professional"]
+
+  - name: pdbtbx
+    role: Contributor
+    logo: /images/sections/skills/rust.png
+    timeline: "April 2021 - Present"
+    url: https://github.com/douweschulte/pdbtbx
+    summary: Parsing library for the PDB file format
+    tags: ["professional"]
+
+  - name: ASH
+    role: Contributor
+    timeline: "November 2021"
+    logo: /images/sections/software/ash2.png
+    url: https://github.com/RagnarB83/ash
+    summary: Computational Chemistry driver library
+    tags: ["professional"]
+
+  - name: Portfolio Homepage
+    role: Maintainer
+    timeline: "September 2021 - Present"
+    logo: /images/site/logolite.png
+    url: https://github.com/DocKDE/website
+    summary: Personal website showcasing my portfolio
+    tags: ["personal"]
+
+  - name: Blog
+    role: Writer & Maintainer
+    timeline: "September 2021 - Present"
+    logo: /images/sections/software/blog.png
+    url: https://codeberg.org/theDoctor/blog
+    summary: Personal blog
+    tags: ["personal"]
+
+  - name: PiHole Server
+    role: Maintainer
+    timeline: "2018 - Present"
+    logo: /images/sections/software/pihole2.png
+    url: https://pi-hole.net/
+    summary: PiHole Server for filtering DNS requests in home network
+    tags: ["personal"]
+
+  - name: Nextcloud Server
+    role: Maintainer
+    logo: /images/sections/software/nextcloud2.png
+    timeline: "2018 - Present"
+    url: https://nextcloud.com/
+    summary: Nextcloud Server for personal file hosting 
+    tags: ["personal"]
+      
 # Chemistry
-- name: ORCA
-  role: Quantum Chemistry Package
-  logo: /images/sections/software/orca2.png
-  summary: General purpose suite with a focus on wave function methods, spectroscopy and transition metal systems. Primarily suited for molecules but embedding approaches are also available. Both comprehensive and accessible and thus highly recommended.
-  url: https://orcaforum.kofo.mpg.de/app.php/portal
-  tags: ["professional", "chemistry"]
-- name: PyMol
-  role: Chemistry Visualization Software
-  logo: /images/sections/software/pymol2.png
-  summary: Python-based, with a focus on macromolecules, e.g. proteins. Extendable and scriptable. There are two version of this, I use the free BSD-licensed one available under the link given here.
-  url: https://github.com/schrodinger/pymol-open-source
-  tags: ["professional", "chemistry"]
-- name: VMD
-  role: Chemistry Visualization Software
-  summary: Visualization and analysis tool for molecules, especially macromolecules like proteins. Comes with many built-in extensions and tools for this. Extendable and scriptable (with tcl).
-  url: https://www.ks.uiuc.edu/Research/vmd/
-  tags: ["professional", "chemistry"]
-- name: Chemcraft
-  role: Chemistry Visualization Software
-  summary: Visualization and analysis tool for molecules (best suited for small to medium sized structures), able to read and visualize ORCA output directly.
-  url: https://www.chemcraftprog.com/index.html
-  tags: ["professional", "chemistry"]
-- name: Avogadro
-  role: Chemistry Visualization Software
-  logo: /images/sections/software/avogadro.png
-  summary: Visualization and analysis tool for molecules. I use this mostly to prepare molecular structures and preoptimize them with a simple molecular mechanics force field.
-  url: https://avogadro.cc/
-  tags: ["professional", "chemistry"]
+# - name: ORCA
+#   role: Quantum Chemistry Package
+#   logo: /images/sections/software/orca2.png
+#   summary: General purpose suite with a focus on wave function methods, spectroscopy and transition metal systems. Primarily suited for molecules but embedding approaches are also available. Both comprehensive and accessible and thus highly recommended.
+#   url: https://orcaforum.kofo.mpg.de/app.php/portal
+#   tags: ["professional", "chemistry"]
+# - name: PyMol
+#   role: Chemistry Visualization Software
+#   logo: /images/sections/software/pymol2.png
+#   summary: Python-based, with a focus on macromolecules, e.g. proteins. Extendable and scriptable. There are two version of this, I use the free BSD-licensed one available under the link given here.
+#   url: https://github.com/schrodinger/pymol-open-source
+#   tags: ["professional", "chemistry"]
+# - name: VMD
+#   role: Chemistry Visualization Software
+#   summary: Visualization and analysis tool for molecules, especially macromolecules like proteins. Comes with many built-in extensions and tools for this. Extendable and scriptable (with tcl).
+#   url: https://www.ks.uiuc.edu/Research/vmd/
+#   tags: ["professional", "chemistry"]
+# - name: Chemcraft
+#   role: Chemistry Visualization Software
+#   summary: Visualization and analysis tool for molecules (best suited for small to medium sized structures), able to read and visualize ORCA output directly.
+#   url: https://www.chemcraftprog.com/index.html
+#   tags: ["professional", "chemistry"]
+# - name: Avogadro
+#   role: Chemistry Visualization Software
+#   logo: /images/sections/software/avogadro.png
+#   summary: Visualization and analysis tool for molecules. I use this mostly to prepare molecular structures and preoptimize them with a simple molecular mechanics force field.
+#   url: https://avogadro.cc/
+#   tags: ["professional", "chemistry"]
 
-# OS
-- name: Fedora
-  role: Operating System
-  logo: /images/sections/software/fedora.png
-  summary: Combintation of bleeding-edge software, frequent stable releases and a focus on free software makes a great fit for me. #[url](http://gohugo.io)
-  url: https://getfedora.org
-  tags: ["personal", "desktop", "os"]
-- name: Ubuntu
-  role: Operating System
-  logo: /images/sections/software/ubuntu2.png
-  summary: Using this for maintenance reasons on my work laptop. Easy to use, large community and huge amount of software packages available.
-  url: https://ubuntu.com
-  tags: ["professional", "desktop", "os"]
-- name: LineageOS
-  role: Operating System
-  logo: /images/sections/software/lineageos.png
-  summary: Android fork that's (almost) Google-free and can be installed on numerous devices.
-  url: https://lineageos.org/
-  tags: ["personal", "mobile", "os"]
+# # OS
+# - name: Fedora
+#   role: Operating System
+#   logo: /images/sections/software/fedora.png
+#   summary: Combintation of bleeding-edge software, frequent stable releases and a focus on free software makes a great fit for me. #[url](http://gohugo.io)
+#   url: https://getfedora.org
+#   tags: ["personal", "desktop", "os"]
+# - name: Ubuntu
+#   role: Operating System
+#   logo: /images/sections/software/ubuntu2.png
+#   summary: Using this for maintenance reasons on my work laptop. Easy to use, large community and huge amount of software packages available.
+#   url: https://ubuntu.com
+#   tags: ["professional", "desktop", "os"]
+# - name: LineageOS
+#   role: Operating System
+#   logo: /images/sections/software/lineageos.png
+#   summary: Android fork that's (almost) Google-free and can be installed on numerous devices.
+#   url: https://lineageos.org/
+#   tags: ["personal", "mobile", "os"]
 
-# Coding
-- name: VSCodium
-  role: Code Editor
-  logo: /images/sections/software/vscodium2.png
-  summary: Free (as in freedom) version of VSCode. Using this for most coding activities as it's very versatile and easy to set up and use.
-  url: https://vscodium.com
-  tags: ["professional", "personal", "desktop", "coding"]
-- name: PyCharm Community
-  role: Developer Environment
-  logo: /images/sections/software/pycharm2.png
-  summary: Most extensive Python IDE out there with tons of features that ease Python development. Since it's somewhat heavyweight I only use this for larger projects.
-  url: https://www.jetbrains.com/pycharm/ 
-  tags: ["professional", "personal", "desktop", "coding"]
-- name: neovim
-  role: Code Editor
-  logo: /images/sections/software/neovim2.png
-  summary: General purpose keyboard-centric text editor. Due to its customizability it can be configured as a 
-    full-fledged IDE for coding in any language including markdown and the like. Very powerful but has a considerable 
-    learning curve.
-  url: https://neovim.io/
-  tags: ["professional", "personal", "desktop", "coding"]
+# # Coding
+# - name: VSCodium
+#   role: Code Editor
+#   logo: /images/sections/software/vscodium2.png
+#   summary: Free (as in freedom) version of VSCode. Using this for most coding activities as it's very versatile and easy to set up and use.
+#   url: https://vscodium.com
+#   tags: ["professional", "personal", "desktop", "coding"]
+# - name: PyCharm Community
+#   role: Developer Environment
+#   logo: /images/sections/software/pycharm2.png
+#   summary: Most extensive Python IDE out there with tons of features that ease Python development. Since it's somewhat heavyweight I only use this for larger projects.
+#   url: https://www.jetbrains.com/pycharm/ 
+#   tags: ["professional", "personal", "desktop", "coding"]
+# - name: neovim
+#   role: Code Editor
+#   logo: /images/sections/software/neovim2.png
+#   summary: General purpose keyboard-centric text editor. Due to its customizability it can be configured as a 
+#     full-fledged IDE for coding in any language including markdown and the like. Very powerful but has a considerable 
+#     learning curve.
+#   url: https://neovim.io/
+#   tags: ["professional", "personal", "desktop", "coding"]
 
-# Browsers
-- name: Tor Browser
-  role: Browser
-  logo: /images/sections/software/tor.png
-  summary: Suitable for staying anonymous and private. I do most of my casual browsing with it.
-  url: https://www.torproject.org
-  tags: ["personal", "desktop", "mobile", "browser"]
-- name: Librewolf
-  role: Browser
-  logo: /images/sections/software/librewolf2.png
-  summary: Firefox fork with settings and tweaks geared towards maximum privacy. Supports all Firefox extensions and great for casual browsing, however some websites break with it.
-  url: https://librewolf-community.gitlab.io/ 
-  tags: ["professional", "personal", "desktop", "browser"]
-- name: Ungoogled Chromium
-  role: Browser
-  logo: /images/sections/software/chromium.png
-  summary: Fork of Chromium that strips out all Google components. This is great for privacy but the use of addons is not straightforward due to dependence on the chrome web store. Useful when you need a chromium-based browser (e.g. video conferences).
-  url: https://github.com/Eloston/ungoogled-chromium
-  tags: ["professional", "personal", "desktop", "mobile", "browser"]
+# # Browsers
+# - name: Tor Browser
+#   role: Browser
+#   logo: /images/sections/software/tor.png
+#   summary: Suitable for staying anonymous and private. I do most of my casual browsing with it.
+#   url: https://www.torproject.org
+#   tags: ["personal", "desktop", "mobile", "browser"]
+# - name: Librewolf
+#   role: Browser
+#   logo: /images/sections/software/librewolf2.png
+#   summary: Firefox fork with settings and tweaks geared towards maximum privacy. Supports all Firefox extensions and great for casual browsing, however some websites break with it.
+#   url: https://librewolf-community.gitlab.io/ 
+#   tags: ["professional", "personal", "desktop", "browser"]
+# - name: Ungoogled Chromium
+#   role: Browser
+#   logo: /images/sections/software/chromium.png
+#   summary: Fork of Chromium that strips out all Google components. This is great for privacy but the use of addons is not straightforward due to dependence on the chrome web store. Useful when you need a chromium-based browser (e.g. video conferences).
+#   url: https://github.com/Eloston/ungoogled-chromium
+#   tags: ["professional", "personal", "desktop", "mobile", "browser"]
 
-# Communication
-- name: Thunderbird
-  role: Desktop E-Mail Client
-  logo: /images/sections/software/thunderbird2.png
-  summary: Mature, easy to set up and has all the features I need, including support for calendars plus synchronization and PGP and S/MIME signing and encryption. Also it's cross-platform which is a plus.
-  url: https://www.thunderbird.net/ 
-  tags: ["professional", "personal", "desktop", "communication"]
-- name: FairEmail
-  role: Mobile E-Mail Client
-  logo: /images/sections/software/fairemail2.png
-  summary: Comprehensive and focused on privacy. Almost all features available for free, some (like encryption support) only available with premium version which is available after making a donation to the developer (which I highly recommend).
-  url: https://email.faircode.eu/
-  tags: ["personal", "communication"]
-- name: RocketChat
-  role: Team Collaboration Tool
-  logo: /images/sections/software/rocketchat2.png
-  summary: Similar to Slack (which I've never used), makes getting in touch and discussing with colleagues very comfortable, even with a larger amount of people.
-  url: https://rocket.chat/
-  tags: ["professional", "desktop", "mobile", "communication"]
-- name: Signal
-  role: Instant Messenger
-  logo: /images/sections/software/signal2.png
-  summary: Focuses on avoiding metadata and (end-to-end) encryption while being feature-rich and easy to use. As such it is a good alternative to WhatsApp.
-  url: https://signal.org
-  tags: ["personal", "mobile", "communication"]
-- name: Threema
-  role: Instant Messenger
-  logo: /images/sections/software/threema2.png
-  summary: Focuses on security and privacy. Offers end-to-end encryption, user verification and usage without giving personal data (like a phone number). Available for a small fee.
-  url: https://threema.ch/en
-  tags: ["personal", "mobile", "communication"]
+# # Communication
+# - name: Thunderbird
+#   role: Desktop E-Mail Client
+#   logo: /images/sections/software/thunderbird2.png
+#   summary: Mature, easy to set up and has all the features I need, including support for calendars plus synchronization and PGP and S/MIME signing and encryption. Also it's cross-platform which is a plus.
+#   url: https://www.thunderbird.net/ 
+#   tags: ["professional", "personal", "desktop", "communication"]
+# - name: FairEmail
+#   role: Mobile E-Mail Client
+#   logo: /images/sections/software/fairemail2.png
+#   summary: Comprehensive and focused on privacy. Almost all features available for free, some (like encryption support) only available with premium version which is available after making a donation to the developer (which I highly recommend).
+#   url: https://email.faircode.eu/
+#   tags: ["personal", "communication"]
+# - name: RocketChat
+#   role: Team Collaboration Tool
+#   logo: /images/sections/software/rocketchat2.png
+#   summary: Similar to Slack (which I've never used), makes getting in touch and discussing with colleagues very comfortable, even with a larger amount of people.
+#   url: https://rocket.chat/
+#   tags: ["professional", "desktop", "mobile", "communication"]
+# - name: Signal
+#   role: Instant Messenger
+#   logo: /images/sections/software/signal2.png
+#   summary: Focuses on avoiding metadata and (end-to-end) encryption while being feature-rich and easy to use. As such it is a good alternative to WhatsApp.
+#   url: https://signal.org
+#   tags: ["personal", "mobile", "communication"]
+# - name: Threema
+#   role: Instant Messenger
+#   logo: /images/sections/software/threema2.png
+#   summary: Focuses on security and privacy. Offers end-to-end encryption, user verification and usage without giving personal data (like a phone number). Available for a small fee.
+#   url: https://threema.ch/en
+#   tags: ["personal", "mobile", "communication"]
 
-# Productivity
-- name: Joplin
-  role: Productivity Tool
-  logo: /images/sections/software/joplin.png
-  summary: App for note taking and more. Very useful for keeping an overview of several projects and tasks. Supports markdown, embedding PDFs, hyperlinks, automated cloud synchronization (to cloud of choice, e.g. Nextcloud instance) via WebDAV and much more. Available for all platforms.
-  url: https://joplinapp.org/
-  tags: ["professional", "productivity", "desktop", "mobile"]
-- name: Etar
-  role: Calendar
-  logo: /images/sections/software/etar2.png
-  summary: Mobile app that supports synchronization via CalDAV.
-  url: https://github.com/Etar-Group/Etar-Calendar
-  tags: ["professional", "personal", "productivity", "mobile"]
+# # Productivity
+# - name: Joplin
+#   role: Productivity Tool
+#   logo: /images/sections/software/joplin.png
+#   summary: App for note taking and more. Very useful for keeping an overview of several projects and tasks. Supports markdown, embedding PDFs, hyperlinks, automated cloud synchronization (to cloud of choice, e.g. Nextcloud instance) via WebDAV and much more. Available for all platforms.
+#   url: https://joplinapp.org/
+#   tags: ["professional", "productivity", "desktop", "mobile"]
+# - name: Etar
+#   role: Calendar
+#   logo: /images/sections/software/etar2.png
+#   summary: Mobile app that supports synchronization via CalDAV.
+#   url: https://github.com/Etar-Group/Etar-Calendar
+#   tags: ["professional", "personal", "productivity", "mobile"]
 
-# Image Editing
-- name: Inkscape
-  role: Image Editing
-  logo: /images/sections/software/inkscape.png
-  url: https://inkscape.org/
-  summary: Image editor to create logos, drawings, vector graphics and presentation from SVG files.
-  tags: ["professional", "personal", "desktop", "image_editing"]
-- name: GIMP
-  role: Image Editing
-  logo: /images/sections/software/gimp2.png
-  summary: Image editor I use for very specific tasks.
-  url: https://www.gimp.org/
-  tags: ["professional", "personal", "desktop", "image_editing"]
+# # Image Editing
+# - name: Inkscape
+#   role: Image Editing
+#   logo: /images/sections/software/inkscape.png
+#   url: https://inkscape.org/
+#   summary: Image editor to create logos, drawings, vector graphics and presentation from SVG files.
+#   tags: ["professional", "personal", "desktop", "image_editing"]
+# - name: GIMP
+#   role: Image Editing
+#   logo: /images/sections/software/gimp2.png
+#   summary: Image editor I use for very specific tasks.
+#   url: https://www.gimp.org/
+#   tags: ["professional", "personal", "desktop", "image_editing"]
 
-# File syncing
-- name: Nextcloud
-  role: Cloud Collaboration Platform
-  logo: /images/sections/software/nextcloud2.png
-  summary: Provides file synchronization, calendar, contact notebook, video conferencing, chatting and much more. I self-host this and use it to store and share files, contacts and my calendars. Clients for all platforms are available.
-  url: https://nextcloud.com/
-  tags: ["personal", "desktop", "mobile", "synchronization"]
-- name: owncloud
-  role: Cloud Collaboration Platform
-  logo: /images/sections/software/owncloud2.png
-  summary: Provides file synchronization, calendar, contact notebook. Clients for all platforms are available. Nextcloud was forked from this and I use it for work-related file storage and sharing.
-  url: https://owncloud.com/
-  tags: ["professional", "desktop", "synchronization"]
-- name: DAVx5
-  role: Syncing Tool
-  logo: /images/sections/software/davx5_2.png
-  summary: App for synchronizing calendars and contacts between phone and cloud via CalDAV and CardDAV.
-  url: https://www.davx5.com/
-  tags: ["personal", "mobile", "synchronization"]
+# # File syncing
+# - name: Nextcloud
+#   role: Cloud Collaboration Platform
+#   logo: /images/sections/software/nextcloud2.png
+#   summary: Provides file synchronization, calendar, contact notebook, video conferencing, chatting and much more. I self-host this and use it to store and share files, contacts and my calendars. Clients for all platforms are available.
+#   url: https://nextcloud.com/
+#   tags: ["personal", "desktop", "mobile", "synchronization"]
+# - name: owncloud
+#   role: Cloud Collaboration Platform
+#   logo: /images/sections/software/owncloud2.png
+#   summary: Provides file synchronization, calendar, contact notebook. Clients for all platforms are available. Nextcloud was forked from this and I use it for work-related file storage and sharing.
+#   url: https://owncloud.com/
+#   tags: ["professional", "desktop", "synchronization"]
+# - name: DAVx5
+#   role: Syncing Tool
+#   logo: /images/sections/software/davx5_2.png
+#   summary: App for synchronizing calendars and contacts between phone and cloud via CalDAV and CardDAV.
+#   url: https://www.davx5.com/
+#   tags: ["personal", "mobile", "synchronization"]
 
-# Text Editing
-- name: LibreOffice
-  role: Office Suite
-  logo: /images/sections/software/libreoffice2.png
-  summary: Drop-in replacement for MS Office. Offers document writer, presenter, spreadsheet and more with mostly the same features. Compatibility with MS is decent with some expected caveats being different fonts or usage of references.
-  url: https://www.libretext_editing.org/
-  tags: ["professional", "personal", "desktop", "text_editing"]
-- name: TexMaker
-  role: LaTeX Editor
-  logo: /images/sections/software/texmaker2.png
-  summary: Comprehensive IDE for the LaTeX typesetting software. I use(d) this for my dissertation or CV.
-  url: https://www.xm1math.net/texmaker/
-  tags: ["professional", "personal", "desktop", "text_editing"]
-- name: Mark Text
-  role: Markdown Editor
-  logo: /images/sections/software/marktext.jpg
-  summary: Feature-rich and distraction-free markdown editor.
-  tags: ["professional", "personal", "desktop", "text_editing"]
+# # Text Editing
+# - name: LibreOffice
+#   role: Office Suite
+#   logo: /images/sections/software/libreoffice2.png
+#   summary: Drop-in replacement for MS Office. Offers document writer, presenter, spreadsheet and more with mostly the same features. Compatibility with MS is decent with some expected caveats being different fonts or usage of references.
+#   url: https://www.libretext_editing.org/
+#   tags: ["professional", "personal", "desktop", "text_editing"]
+# - name: TexMaker
+#   role: LaTeX Editor
+#   logo: /images/sections/software/texmaker2.png
+#   summary: Comprehensive IDE for the LaTeX typesetting software. I use(d) this for my dissertation or CV.
+#   url: https://www.xm1math.net/texmaker/
+#   tags: ["professional", "personal", "desktop", "text_editing"]
+# - name: Mark Text
+#   role: Markdown Editor
+#   logo: /images/sections/software/marktext.jpg
+#   summary: Feature-rich and distraction-free markdown editor.
+#   tags: ["professional", "personal", "desktop", "text_editing"]
 
-# Social
-- name: Freetube
-  role: Alternative Youtube Client
-  logo: /images/sections/software/freetube2.png
-  summary: Focused on privacy. Can be used for watching videos, reading comments, making playlists, subscribing to channels without giving your data (except your IP adress) to Google servers. Doesn't display ads.
-  url: https://freetubeapp.io/
-  tags: ["professional", "personal", "desktop", "social"]
-- name: NewPipe
-  role: Alternative Youtube Client
-  logo: /images/sections/software/newpipe2.png
-  summary: Client for Android focused on privacy. Can be used for watching videos, reading comments, making playlists, subscribing to channels without giving your data (except your IP adress) to Google servers. Also supports downloading videos and watching them in the background while having other apps open. Doesn't display ads.
-  url: https://newpipe.net/
-  tags: ["personal", "mobile", "social"]
-- name: Tusky
-  role: Mastodon Mobile Client
-  logo: /images/sections/software/tusky2.png
-  summary: Mobile client for the Mastodon federated social network (similar to Twitter).
-  url: https://tusky.app/
-  tags: ["personal", "mobile", "social"]
-- name: Tootle
-  role: Mastodon Desktop Client
-  logo: /images/sections/software/tootle2.png
-  summary: Minimal desktop client for the Mastodon federated social network (similar to Twitter).
-  url: https://tusky.app/
-  tags: ["personal", "desktop", "social"]
-- name: Slide
-  role: Alternative Reddit Client
-  logo: /images/sections/software/slide2.png
-  summary: Offers extensive customizability and a comprehensive set of features including profile management and theming.
-  url: https://github.com/ccrama/Slide
-  tags: ["personal", "mobile", "social"]
+# # Social
+# - name: Freetube
+#   role: Alternative Youtube Client
+#   logo: /images/sections/software/freetube2.png
+#   summary: Focused on privacy. Can be used for watching videos, reading comments, making playlists, subscribing to channels without giving your data (except your IP adress) to Google servers. Doesn't display ads.
+#   url: https://freetubeapp.io/
+#   tags: ["professional", "personal", "desktop", "social"]
+# - name: NewPipe
+#   role: Alternative Youtube Client
+#   logo: /images/sections/software/newpipe2.png
+#   summary: Client for Android focused on privacy. Can be used for watching videos, reading comments, making playlists, subscribing to channels without giving your data (except your IP adress) to Google servers. Also supports downloading videos and watching them in the background while having other apps open. Doesn't display ads.
+#   url: https://newpipe.net/
+#   tags: ["personal", "mobile", "social"]
+# - name: Tusky
+#   role: Mastodon Mobile Client
+#   logo: /images/sections/software/tusky2.png
+#   summary: Mobile client for the Mastodon federated social network (similar to Twitter).
+#   url: https://tusky.app/
+#   tags: ["personal", "mobile", "social"]
+# - name: Tootle
+#   role: Mastodon Desktop Client
+#   logo: /images/sections/software/tootle2.png
+#   summary: Minimal desktop client for the Mastodon federated social network (similar to Twitter).
+#   url: https://tusky.app/
+#   tags: ["personal", "desktop", "social"]
+# - name: Slide
+#   role: Alternative Reddit Client
+#   logo: /images/sections/software/slide2.png
+#   summary: Offers extensive customizability and a comprehensive set of features including profile management and theming.
+#   url: https://github.com/ccrama/Slide
+#   tags: ["personal", "mobile", "social"]
   
 
-# Security
-- name: KeePassXC
-  role: Password Manager
-  logo: /images/sections/software/keepass2.png
-  summary: Offers generation of secure passwords, autotyping, integration with browsers and ssh agents and more. All passwords are placed in a local file that has to be synced manually if desired.
-  url: https://keepassxc.org/
-  tags: ["professional", "personal", "desktop", "security"]
-- name: NetGuard
-  role: App Filter
-  logo: /images/sections/software/netguard2.png
-  summary: This Android app is able to filter the network traffic of all apps. This can be controlled per app and per connection made. Very useful to get rid of unwanted ads or trackers embedded in installed apps. **Note:** **This is only really useful with the premium version obtainable for a donation to the developer.**
-  url: https://netguard.me/
-  tags: ["personal", "mobile", "security"]
-- name: Pi-hole
-  role: Network Filter
-  logo: /images/sections/software/pihole2.png
-  summary: This app can filter all network traffic of your home network. This can be controlled per device and per connection made. Very configurable and useful to get rid of trackers and ads for all devices running in the same network. This is escpecially helpful to deal with devices for which you cannot change the settings (like smart TVs). I have this installed on a Raspberry Pi that runs at home.
-  url: https://pi-hole.net/
-  tags: ["personal", "desktop", "security"]
+# # Security
+# - name: KeePassXC
+#   role: Password Manager
+#   logo: /images/sections/software/keepass2.png
+#   summary: Offers generation of secure passwords, autotyping, integration with browsers and ssh agents and more. All passwords are placed in a local file that has to be synced manually if desired.
+#   url: https://keepassxc.org/
+#   tags: ["professional", "personal", "desktop", "security"]
+# - name: NetGuard
+#   role: App Filter
+#   logo: /images/sections/software/netguard2.png
+#   summary: This Android app is able to filter the network traffic of all apps. This can be controlled per app and per connection made. Very useful to get rid of unwanted ads or trackers embedded in installed apps. **Note:** **This is only really useful with the premium version obtainable for a donation to the developer.**
+#   url: https://netguard.me/
+#   tags: ["personal", "mobile", "security"]
+# - name: Pi-hole
+#   role: Network Filter
+#   logo: /images/sections/software/pihole2.png
+#   summary: This app can filter all network traffic of your home network. This can be controlled per device and per connection made. Very configurable and useful to get rid of trackers and ads for all devices running in the same network. This is escpecially helpful to deal with devices for which you cannot change the settings (like smart TVs). I have this installed on a Raspberry Pi that runs at home.
+#   url: https://pi-hole.net/
+#   tags: ["personal", "desktop", "security"]
 
-# Misc.
-- name: microG 
-  role: Google Play Services Substitute
-  logo: /images/sections/software/microg2.png
-  summary: Compatibility layer mimicking Google Play Services on devices that don't have them installed. This makes it possible to install apps that rely on them.
-  url: https://microg.org/
-  tags: ["personal", "mobile", "misc"]
-- name: F-Droid
-  role: Alternative App Store
-  logo: /images/sections/software/fdroid2.png
-  summary: Android app store featuring only free software
-  url: https://www.f-droid.org/
-  tags: ["personal", "mobile", misc]
+# # Misc.
+# - name: microG 
+#   role: Google Play Services Substitute
+#   logo: /images/sections/software/microg2.png
+#   summary: Compatibility layer mimicking Google Play Services on devices that don't have them installed. This makes it possible to install apps that rely on them.
+#   url: https://microg.org/
+#   tags: ["personal", "mobile", "misc"]
+# - name: F-Droid
+#   role: Alternative App Store
+#   logo: /images/sections/software/fdroid2.png
+#   summary: Android app store featuring only free software
+#   url: https://www.f-droid.org/
+#   tags: ["personal", "mobile", misc]
