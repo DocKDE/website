@@ -105,7 +105,7 @@
         {{ end }}
         {{ if $blogEnabled }}
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="{{ "/posts" | relLangURL }}">{{ i18n "posts" }}</a>
+              <a class="nav-link" id="blog-link" href={{ site.Params.features.blog.url }}>Blog</a>
           </li>
         {{ end }}
         {{ if $notesEnabled }}

@@ -30,7 +30,8 @@ params:
 
   features:
     blog:
-      enable: False
+      enable: True
+      url: "https://blog.bfloeser.de"
       # shareButtons:
       # email: True
 
