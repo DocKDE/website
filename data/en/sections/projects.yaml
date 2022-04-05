@@ -63,7 +63,7 @@ projects:
     timeline: "February 2021"
     logo: /images/sections/skills/python.png
     url: https://codeberg.org/theDoctor/irras
-    summary: GUI for visualization of experimental and calculated IRRA spectra written in Pyhton
+    summary: GUI for visualization of experimental and calculated IRRA spectra written in Python
     tags: ["professional"]
 
   - name: ASH
