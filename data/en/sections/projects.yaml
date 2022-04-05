@@ -58,6 +58,14 @@ projects:
     summary: Parsing library for the PDB file format written in Rust
     tags: ["professional"]
 
+  - name: IRRAS
+    role: Developer
+    timeline: "February 2021"
+    logo: /images/sections/skills/python.png
+    url: https://codeberg.org/theDoctor/irras
+    summary: GUI for visualization of experimental and calculated IRRA spectra written in Pyhton
+    tags: ["professional"]
+
   - name: ASH
     role: Contributor
     timeline: "November 2021"
