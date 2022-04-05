@@ -47,7 +47,7 @@ projects:
     timeline: "March 2021 - Present"
     logo: /images/sections/skills/rust.png
     url: https://codeberg.org/theDoctor/pdbman
-    summary: Prepare PDB files for use in ORCA QM/MM calculations
+    summary: Command line tool to prepare PDB files for use in ORCA QM/MM calculations written in Rust
     tags: ["professional"]
 
   - name: pdbtbx
@@ -55,7 +55,7 @@ projects:
     logo: /images/sections/skills/rust.png
     timeline: "April 2021 - Present"
     url: https://github.com/douweschulte/pdbtbx
-    summary: Parsing library for the PDB file format
+    summary: Parsing library for the PDB file format written in Rust
     tags: ["professional"]
 
   - name: ASH
@@ -63,7 +63,7 @@ projects:
     timeline: "November 2021"
     logo: /images/sections/software/ash2.png
     url: https://github.com/RagnarB83/ash
-    summary: Computational Chemistry driver library
+    summary: Computational Chemistry driver library written in Python
     tags: ["professional"]
 
   - name: Portfolio Homepage
@@ -71,7 +71,7 @@ projects:
     timeline: "September 2021 - Present"
     logo: /images/site/logolite.png
     url: https://github.com/DocKDE/website
-    summary: Personal website showcasing my portfolio
+    summary: Maintining a personal website showcasing my portfolio using Hugo
     tags: ["personal"]
 
   - name: Blog
@@ -79,7 +79,7 @@ projects:
     timeline: "September 2021 - Present"
     logo: /images/sections/software/blog.png
     url: https://codeberg.org/theDoctor/blog
-    summary: Personal blog
+    summary: Maintaining a personal blog using Hugo
     tags: ["personal"]
 
   - name: PiHole Server

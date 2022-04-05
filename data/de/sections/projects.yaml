@@ -48,7 +48,7 @@ projects:
     timeline: "März 2021 - Gegenwart"
     logo: /images/sections/skills/rust.png
     url: https://codeberg.org/theDoctor/pdbman
-    summary: Verarbeitung von PDB-Dateien für QM/MM-Berechnungen mit ORCA
+    summary: Kommdozeilen-Tool zur Verarbeitung von PDB-Dateien für QM/MM-Berechnungen mit ORCA geschrieben in Rust
     tags: ["professional"]
 
   - name: pdbtbx
@@ -56,7 +56,7 @@ projects:
     timeline: "April 2021 - Gegenwart"
     logo: /images/sections/skills/rust.png
     url: https://github.com/douweschulte/pdbtbx
-    summary: Parserbibliothek für PDB-Dateien
+    summary: Parserbibliothek für PDB-Dateien in Rust
     tags: ["professional"]
 
   - name: ASH
@@ -64,23 +64,23 @@ projects:
     timeline: "November 2021"
     logo: /images/sections/software/ash2.png
     url: https://github.com/RagnarB83/ash
-    summary: Bibliothek zur Beitreibung verschiedener Computerchemie-Programmpakete
+    summary: Bibliothek zur Betreibung verschiedener Computerchemie-Programmpakete geschrieben in Python
     tags: ["professional"]
 
   - name: Portfolio Homepage
-    role: Betreuer
+    role: Betreiber
     timeline: "September 2021 - Gegenwart"
     logo: /images/site/logolite.png
     url: https://github.com/DocKDE/website
-    summary: Persönliche Portfolio-Website
+    summary: Persönliche Portfolio-Website unter Nutzung von Hugo
     tags: ["personal"]
 
   - name: Blog
-    role: Schreiber & Betreuer
+    role: Schreiber & Betreiber
     timeline: "September 2021 - Gegenwart"
     logo: /images/sections/software/blog.png
     url: https://codeberg.org/theDoctor/blog
-    summary: Persönlicher Blog
+    summary: Persönlicher Blog unter Nutzung von Hugo
     tags: ["personal"]
 
   - name: PiHole Server
@@ -96,7 +96,7 @@ projects:
     timeline: "2018 - Present"
     logo: /images/sections/software/nextcloud2.png
     url: https://nextcloud.com/
-    summary: Nextcloud Server zum persönlichen File-Hosting
+    summary: Nextcloud-Server zum persönlichen File-Hosting
     tags: ["personal"]
 
 # projects:
