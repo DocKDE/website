@@ -12,12 +12,12 @@ skills:
 
 - name: Chemistry software
   logo: /images/sections/skills/chemistry.svg
-  summary: Capable of setting up and using a wide array of computaional chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analyzing as well as vizualising the results (PyMol, VMD, Avogadro, Chemcraft, matplotlib) for presentation.
+  summary: Capable of setting up and using a wide array of computational chemistry packages (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) and analyzing as well as visualizing the results (PyMol, VMD, Avogadro, Chemcraft, matplotlib) for presentation.
 
 - name: Python
   logo: /images/sections/skills/python2.png
   url: https://www.python.org/
-  summary: Experience in scripting, data analysis, vizualisation, writing command-line tools, GUIs and contributions to a larger-scale project.
+  summary: Experience in scripting, data analysis, visualization, writing command-line tools, GUIs and contributions to a larger-scale project.
 
 - name: Rust
   url: https://www.rust-lang.org/

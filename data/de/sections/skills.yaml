@@ -8,11 +8,11 @@ section:
 skills:
 - name: Computational Chemistry
   logo: images/site/logolite.png
-  summary: Mehrere Jahre Erfahrung mit DFT, semiempirischen und Wellenfunktions-methoden zur Berechnung der geometrischen und elektronischen Struktur von kleinen und mittelgroßen Übergangs-metallkomplexen sowie Proteinen. Fokus auf Berechnung von spektroskopischen Eigen-schaften wie Parameter für Schwingungs- optische, Röntgen-, EPR-, NMR-, und Mößbauer-Spektroskopie
+  summary: Mehrere Jahre Erfahrung mit DFT, semiempirischen und Wellenfunktionsmethoden zur Berechnung der geometrischen und elektronischen Struktur von kleinen und mittelgroßen Übergangs-metallkomplexen sowie Proteinen. Fokus auf Berechnung von spektroskopischen Eigenschaften wie Parameter für Schwingungs- optische, Röntgen-, EPR-, NMR-, und Mößbauer-Spektroskopie
 
 - name: Chemistry software
   logo: /images/sections/skills/chemistry.svg
-  summary: Umfassende Erfahrung mit dem Aufsetzen und Betreiben verschiedener computerchemischer Programmpakete (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) sowie mit der Analyse und Visualisierung der Ergebnisse (PyMol, VMD, Avogadro, Chemcraft, matplotlib) zur Präsentation.
+  summary: Umfassende Erfahrung mit dem Aufsetzen und Betreiben verschiedener computerchemischer Programmpakete (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) sowie mit der Analyse und Visualisierung der Ergebnisse (PyMol, VMD, Avogadro, Chemcraft, matplotlib etc.) zur Präsentation.
 
 - name: Python
   logo: /images/sections/skills/python2.png
@@ -21,7 +21,7 @@ skills:
 
 - name: Rust
   logo: /images/sections/skills/rust2.png
-  summary: Ich lerne Rust um meinen Horizont zu erweitern und meine Fähigkeiten als Programmierer zu verbessern. Bisher habe ich es benutzt um ein performantes Werkzeug zum Verarbeiten von PDB-Dateien zu schreiben. Ich bin in der Lage Software mit Rust zu schreiben, die leicht zu testen und zu warten ist.
+  summary: Ich lerne Rust um meinen Horizont zu erweitern und meine Fähigkeiten als Programmierer zu verbessern. Bisher nutze ich es um ein performantes Werkzeug zum Verarbeiten von PDB-Dateien zu schreiben. Ich bin in der Lage Software mit Rust zu produzieren, die leicht zu testen und zu warten ist.
 
 - name: Go
   logo: /images/sections/skills/go.png
@@ -37,7 +37,7 @@ skills:
 
 - name: Betriebssysteme
   logo: /images/sections/skills/server.svg
-  summary: Ich bin Linux und Windows gewohnt und in der Lage Standardaufgaben mit beiden auszuführen, tiefergehende Nutzung auch mit Linux. Das Ausetzen und betreiben einer Entwicklerumgebung mit Linux bin ich gewohnt.
+  summary: Ich bin Linux und Windows gewohnt und in der Lage Aufgaben mit beiden auszuführen, tiefergehende Nutzung auch mit Linux. Das Aufsetzen und Betreiben einer Entwicklerumgebung mit Linux bin ich gewohnt.
 
 - name: Linux Systemadministration
   logo: /images/sections/skills/linux2.png
