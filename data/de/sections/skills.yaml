@@ -40,7 +40,7 @@ skills:
   logo: /images/sections/skills/server.svg
   summary: Ich bin Linux und Windows gewohnt und in der Lage Aufgaben mit beiden auszuführen, tiefergehende Nutzung auch mit Linux. Das Aufsetzen und Betreiben einer Entwicklerumgebung mit Linux bin ich gewohnt.
 
-- name: Linux Systemadministration
+- name: Linux-Systemadministration
   logo: /images/sections/skills/linux2.png
   summary: Mehrjährige Erfahrung mit persönlichen Servern. Ich bin in der Lage sie zu konfigurieren, warten, zu updaten und für verschiedene Projekte betreiben, sowie Aufgaben mit Skripten zu automatisieren.
 
