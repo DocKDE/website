@@ -24,11 +24,6 @@ skills:
   logo: /images/sections/skills/rust2.png
   summary: Learning to broaden my horizon and challenge myself as a programmer. Using for writing high-performance command-line tool for processing PDB files. Capable of writing testable, maintainable tools and contributing to community libraries.
 
-- name: Go
-  url: https://go.dev/
-  logo: /images/sections/skills/go.png
-  summary: Basic knowledge of language features. 
-
 - name: Web Development
   logo: /images/sections/skills/html2.png
   summary: Basic knowledge of HTML5 and CSS, capable of creating or editing and styling static web pages.
@@ -37,6 +32,11 @@ skills:
   url: https://git-scm.com/
   logo: /images/sections/skills/git2.png
   summary: Experience with git-based development workflows as a solo developer or in a small team. Familiar with GitHub, Gitlab or Codeberg as code forges.
+
+- name: Docker
+  url: https://www.docker.com/
+  logo: /images/sections/skills/docker2.png
+  summary: Foundational knowledge of functionality and first experiences with running and managing containers for personal server use.
 
 - name: Operating Systems
   logo: /images/sections/skills/server.svg

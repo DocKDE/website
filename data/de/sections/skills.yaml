@@ -23,10 +23,6 @@ skills:
   logo: /images/sections/skills/rust2.png
   summary: Ich lerne Rust um meinen Horizont zu erweitern und meine Fähigkeiten als Programmierer zu verbessern. Bisher nutze ich es um ein performantes Werkzeug zum Verarbeiten von PDB-Dateien zu schreiben. Ich bin in der Lage Software mit Rust zu produzieren, die leicht zu testen und zu warten ist.
 
-- name: Go
-  logo: /images/sections/skills/go.png
-  summary: Grundlegende Kenntnisse der Sprache.
-
 - name: Webentwicklung
   logo: /images/sections/skills/html2.png
   summary: Grundkenntnisse in HTML5 und CSS, mit denen ich in der Lage bin statische Websites zu erstellen oder editieren und zu stylen.
@@ -34,6 +30,11 @@ skills:
 - name: Git
   logo: /images/sections/skills/git2.png
   summary: Erfahrung mit git-basierten Workflows als Soloentwickler oder in kleinen Teams. Vertraut mit GitHub, Gitlab und Codeberg als Online-Plattformen.
+
+- name: Docker
+  url: https://www.docker.com/
+  logo: /images/sections/skills/docker2.png
+  summary: Grundlegende Kenntnisse der Funktionsweise und erste Erfahrungen mit dem Betreiben einiger Container auf privatem Server.
 
 - name: Betriebssysteme
   logo: /images/sections/skills/server.svg
