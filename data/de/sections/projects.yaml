@@ -48,7 +48,7 @@ projects:
     timeline: "März 2021 - Gegenwart"
     logo: /images/sections/skills/rust.png
     url: https://codeberg.org/theDoctor/pdbman
-    summary: Kommdozeilen-Tool zur Verarbeitung von PDB-Dateien für QM/MM-Berechnungen mit ORCA geschrieben in Rust
+    summary: Kommandozeilen-Tool zur Verarbeitung von PDB-Dateien für QM/MM-Berechnungen mit ORCA geschrieben in Rust
     tags: ["professional"]
 
   - name: pdbtbx
@@ -56,7 +56,7 @@ projects:
     timeline: "April 2021 - Gegenwart"
     logo: /images/sections/skills/rust.png
     url: https://github.com/douweschulte/pdbtbx
-    summary: Parserbibliothek für PDB-Dateien in Rust
+    summary: Parser-Bibliothek für PDB-Dateien in Rust
     tags: ["professional"]
 
   - name: IRRAS

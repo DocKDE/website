@@ -6,18 +6,18 @@ section:
   showOnNavbar: true
 
 skills:
-- name: Computational Chemistry
+- name: Computerchemie
   logo: images/site/logolite.png
   summary: Mehrere Jahre Erfahrung mit DFT, semiempirischen und Wellenfunktionsmethoden zur Berechnung der geometrischen und elektronischen Struktur von kleinen und mittelgroßen Übergangs-metallkomplexen sowie Proteinen. Fokus auf Berechnung von spektroskopischen Eigenschaften wie Parameter für Schwingungs- optische, Röntgen-, EPR-, NMR-, und Mößbauer-Spektroskopie
 
-- name: Chemistry software
+- name: Chemie-Software
   logo: /images/sections/skills/chemistry.svg
   summary: Umfassende Erfahrung mit dem Aufsetzen und Betreiben verschiedener computerchemischer Programmpakete (ORCA, Gaussian, Molpro, Turbomole, MRCC, Psi4, Amber) sowie mit der Analyse und Visualisierung der Ergebnisse (PyMol, VMD, Avogadro, Chemcraft, matplotlib etc.) zur Präsentation.
 
 - name: Python
   logo: /images/sections/skills/python2.png
   url: https://www.python.org/
-  summary: Erfahrung mit Skripting, Datenanalyse, Datenvisualisierung, Schreiben von Kommandozeilen-Tools, GUIs und Beiträgen zu Projekten größeren Maßstabs.
+  summary: Erfahrung mit Scripting, Datenanalyse, Datenvisualisierung, Schreiben von Kommandozeilen-Tools, GUIs und Beiträgen zu Projekten größeren Maßstabs.
 
 - name: Rust
   logo: /images/sections/skills/rust2.png
@@ -27,13 +27,13 @@ skills:
   logo: /images/sections/skills/go.png
   summary: Grundlegende Kenntnisse der Sprache.
 
-- name: Web Development
+- name: Webentwicklung
   logo: /images/sections/skills/html2.png
   summary: Grundkenntnisse in HTML5 und CSS, mit denen ich in der Lage bin statische Websites zu erstellen oder editieren und zu stylen.
 
 - name: Git
   logo: /images/sections/skills/git2.png
-  summary: Erfahrung mit git-basierten Workflows als Soloentwickler oder in kleinen Teams. Vertraut mit GitHub, Gitlab und Codeberg als Online-Coderepositorien.
+  summary: Erfahrung mit git-basierten Workflows als Soloentwickler oder in kleinen Teams. Vertraut mit GitHub, Gitlab und Codeberg als Online-Plattformen.
 
 - name: Betriebssysteme
   logo: /images/sections/skills/server.svg
