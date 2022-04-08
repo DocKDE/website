@@ -75,7 +75,7 @@ projects:
     summary: Bibliothek zur Betreibung verschiedener Computerchemie-Programmpakete geschrieben in Python
     tags: ["professional"]
 
-  - name: Portfolio Homepage
+  - name: Portfolio-Homepage
     role: Betreiber
     timeline: "September 2021 - Gegenwart"
     logo: /images/site/logolite.png
@@ -91,7 +91,7 @@ projects:
     summary: Persönlicher Blog unter Nutzung von Hugo
     tags: ["personal"]
 
-  - name: PiHole Server
+  - name: PiHole-Server
     role: Betreiber
     timeline: "2018 - Present"
     logo: /images/sections/software/pihole2.png
@@ -99,7 +99,7 @@ projects:
     summary: PiHole Server zum Filtern von DNS-Anfragen im lokalen Netzwerk
     tags: ["personal"]
 
-  - name: Nextcloud Server
+  - name: Nextcloud-Server
     role: Betreiber
     timeline: "2018 - Present"
     logo: /images/sections/software/nextcloud2.png
