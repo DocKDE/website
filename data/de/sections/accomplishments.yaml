@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Errungenschaften
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Java for Programmers
+  timeline: "März 2022 - April 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: Dieser Kurs beinhaltet Grundlagen zu Syntax, Datenstrukturen sowie objektorientierter Programmierung. Die neu erworbenen Kenntnisse werden auf einige typische Probleme angewendet und mit Konzepten dynamischer Programmierung gelöst.
+  certificateURL: /files/certificates/java.pdf
+
+- name: Intermediate Python
+  timeline: "Februar 2022 - March 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: Dieser Kurs lehrt einige fortgeschrittene Python-Konzepte wie Funktionen höherer Ordnung, objektorientierte Programmierung, Modultests, Iteratoren, Generatoren und ein Überblick über die in der Standardbibliothek enthaltenen Datentypen.
+  certificateURL: /files/certificates/int_python.pdf
+
+- name: Learn HTML
+  timeline: "März 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: Dieser Kurs umfasst eine Einführung in HTML-Elemente, die Dokumentstruktur, Tabellen, Formulare und semantische HTML-elemente. Mehrere kleine Projekte werden zur Übung bearbeitet.
+  certificateURL: /files/certificates/html.pdf
+
+- name: Learn CSS
+  timeline: "März 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: Dieser Kurs behandelt CSS-Grundlagen wie Syntax, Selektoren und Auswahlregeln, das Boxmodell, das Darstellen und Positionieren von Elementen sowie verschiedene Stilmittel. Außerdem behandelt werden Grundlagen den Typografie.
+  certificateURL: /files/certificates/css.pdf
