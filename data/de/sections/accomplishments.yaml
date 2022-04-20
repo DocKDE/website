@@ -48,6 +48,5 @@ accomplishments:
   organization:
     name: Codecademy
     url: https://www.codecademy.com/
-  courseOverview: This course gives an overview of SQL usage including the manipulation and querying of data, aggregating, grouping and analyzing results and dealing with multiple tables.
   courseOverview: Dieser Kurs gibt einen Überblick über grundlegend Funktionen der SQL-Sprache: Die Erstellung, Manipulation und Abfrage von Daten aus Tabellen, das Aggregieren, gruppieren und Analysieren von Daten sowie das Arbeiten mit mehreren Tabellen in derselben Datenbank.
   certificateURL: /files/certificates/sql.pdf
