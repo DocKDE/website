@@ -42,3 +42,11 @@ accomplishments:
     url: https://www.codecademy.com/
   courseOverview: This course teaches CSS fundamentals like syntax, selectors and selection rules, the box model, how to display and position elements and style them as well as the basics of typography.
   certificateURL: /files/certificates/css.pdf
+
+- name: Learn SQL
+  timeline: "April 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: This course gives an overview of SQL usage including the manipulation and querying of data, aggregating, grouping and analyzing results and dealing with multiple tables in the same database.
+  certificateURL: /files/certificates/sql.pdf
