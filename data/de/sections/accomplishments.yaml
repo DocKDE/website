@@ -27,6 +27,15 @@ accomplishments:
   courseOverview: Dieser Kurs lehrt einige fortgeschrittene Python-Konzepte wie Funktionen höherer Ordnung, objektorientierte Programmierung, Modultests, Iteratoren, Generatoren und ein Überblick über die in der Standardbibliothek enthaltenen Datentypen.
   certificateURL: /files/certificates/int_python.pdf
 
+- name: Advanced Python
+  timeline: "April 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: This course covers some advanced programming and Python concepts, such as logging, functional programming, interfacing with relational databases and concurrent programming.
+  courseOverview: Dieser Kurs befasst sich mit einigen tiefergehenden Konzepten wie Logging, nebenläufige und funktionale Programmierung und Interaktionen mit relationalen Datenbanken.
+  certificateURL: /files/certificates/adv_python.pdf
+
 - name: Learn HTML
   timeline: "März 2022"
   organization:
@@ -42,14 +51,6 @@ accomplishments:
     url: https://www.codecademy.com/
   courseOverview: Dieser Kurs behandelt CSS-Grundlagen wie Syntax, Selektoren und Auswahlregeln, das Boxmodell, das Darstellen und Positionieren von Elementen sowie verschiedene Stilmittel. Außerdem behandelt werden Grundlagen den Typografie.
   certificateURL: /files/certificates/css.pdf
-
-# - name: Learn SQL
-#   timeline: "April 2022"
-#   organization:
-#     name: Codecademy
-#     url: https://www.codecademy.com/
-#   courseOverview: Dieser Kurs gibt einen Überblick über grundlegend Funktionen der SQL-Sprache: Die Erstellung, Manipulation und Abfrage von Daten aus Tabellen, das Aggregieren, gruppieren und Analysieren von Daten sowie das Arbeiten mit mehreren Tabellen in derselben Datenbank.
-#   certificateURL: /files/certificates/sql.pdf
 
 - name: Learn SQL
   timeline: "April 2022"
