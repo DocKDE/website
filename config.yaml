@@ -1,6 +1,7 @@
 baseURL: https://bfloeser.netlify.com
 languageCode: en-us
 theme: "toha"
+title: "Benedikt M. Flöser - Portfolio"
 
 # Manage languages
 defaultContentLanguage: en
