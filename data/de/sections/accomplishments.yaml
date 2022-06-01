@@ -59,3 +59,11 @@ accomplishments:
     url: https://www.codecademy.com/
   courseOverview: "Dieser Kurs gibt einen Überblick über grundlegend Funktionen der SQL-Sprache: Die Erstellung, Manipulation und Abfrage von Daten aus Tabellen, das Aggregieren, gruppieren und Analysieren von Daten sowie das Arbeiten mit mehreren Tabellen in derselben Datenbank."
   certificateURL: /files/certificates/sql.pdf
+
+- name: Learn JavaScript
+  timeline: "May 2022"
+  organization:
+    name: Codecademy
+    url: https://www.codecademy.com/
+  courseOverview: Dieser Kurs lehrt die Grundlagen der Syntax, Datentypen und Datenstrukturen, wobei diese in Lehrprojekten eingesetzt werden.
+  certificateURL: /files/certificates/js.pdf

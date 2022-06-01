@@ -8,53 +8,60 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-
 # Your accomplishments
 accomplishments:
-- name: Java for Programmers
-  timeline: "March 2022 - April 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course teaches the basics of Java syntax, data structures and object-oriented programming and provides a few challenges applying the newly learned skills to common interview problems explaining the concept of dynamic programming in the process.
-  certificateURL: /files/certificates/java.pdf
+  - name: Java for Programmers
+    timeline: "March 2022 - April 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course teaches the basics of Java syntax, data structures and object-oriented programming and provides a few challenges applying the newly learned skills to common interview problems explaining the concept of dynamic programming in the process.
+    certificateURL: /files/certificates/java.pdf
 
-- name: Intermediate Python
-  timeline: "February 2022 - March 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course covers intermediate Python subjects, such as higher-order functions, object-oriented programming, unit testing, iterators, generators and an overview of built-in collections.
-  certificateURL: /files/certificates/int_python.pdf
+  - name: Intermediate Python
+    timeline: "February 2022 - March 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course covers intermediate Python subjects, such as higher-order functions, object-oriented programming, unit testing, iterators, generators and an overview of built-in collections.
+    certificateURL: /files/certificates/int_python.pdf
 
-- name: Advanced Python
-  timeline: "April 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course covers some advanced programming and Python concepts, such as logging, functional and concurrent programming as well as interfacing with relational databases.
-  certificateURL: /files/certificates/adv_python.pdf
+  - name: Advanced Python
+    timeline: "April 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course covers some advanced programming and Python concepts, such as logging, functional and concurrent programming as well as interfacing with relational databases.
+    certificateURL: /files/certificates/adv_python.pdf
 
-- name: Learn HTML
-  timeline: "March 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course encompasses an introduction to basic HTML elements and document structure, tables, forms and semantic HTML tags. Small website projects are used for practice.
-  certificateURL: /files/certificates/html.pdf
+  - name: Learn HTML
+    timeline: "March 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course encompasses an introduction to basic HTML elements and document structure, tables, forms and semantic HTML tags. Small website projects are used for practice.
+    certificateURL: /files/certificates/html.pdf
 
-- name: Learn CSS
-  timeline: "March 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course teaches CSS fundamentals like syntax, selectors and selection rules, the box model, how to display and position elements and style them as well as the basics of typography.
-  certificateURL: /files/certificates/css.pdf
+  - name: Learn CSS
+    timeline: "March 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course teaches CSS fundamentals like syntax, selectors and selection rules, the box model, how to display and position elements and style them as well as the basics of typography.
+    certificateURL: /files/certificates/css.pdf
 
-- name: Learn SQL
-  timeline: "April 2022"
-  organization:
-    name: Codecademy
-    url: https://www.codecademy.com/
-  courseOverview: This course gives an overview of SQL usage including the manipulation and querying of data, aggregating, grouping and analyzing results and dealing with multiple tables in the same database.
-  certificateURL: /files/certificates/sql.pdf
+  - name: Learn SQL
+    timeline: "April 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course gives an overview of SQL usage including the manipulation and querying of data, aggregating, grouping and analyzing results and dealing with multiple tables in the same database.
+    certificateURL: /files/certificates/sql.pdf
+
+  - name: Learn JavaScript
+    timeline: "May 2022"
+    organization:
+      name: Codecademy
+      url: https://www.codecademy.com/
+    courseOverview: This course aims to build a foundation of basic syntax, data types, data structures and how to build small teaching projects with them.
+    certificateURL: /files/certificates/js.pdf
