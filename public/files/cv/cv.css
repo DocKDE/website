@@ -1,21 +1,21 @@
 @font-face {
     font-family: "FiraSansCondensed";
-    src: url("/home/floeserb/.local/share/fonts/Unknown Vendor/OpenType/Fira Sans Condensed/Fira_Sans_Condensed_Regular.otf");
+    src: url("/home/benedikt/.local/share/fonts/FiraSansCondensed-Regular.otf");
 }
 
 @font-face {
     font-family: "FiraSansCondensedLight";
-    src: url("/home/floeserb/.local/share/fonts/Unknown Vendor/OpenType/Fira Sans Condensed/Fira_Sans_Condensed_Light.otf");
+    src: url("/home/benedikt/.local/share/fonts/FiraSansCondensed-Light.otf");
 }
 
 @font-face {
     font-family: "FiraSansCondensedBold";
-    src: url("/home/floeserb/.local/share/fonts/Unknown Vendor/OpenType/Fira Sans Condensed/Fira_Sans_Condensed_Bold.otf");
+    src: url("/home/benedikt/.local/share/fonts/FiraSansCondensed-Bold.otf");
 }
 
 @font-face {
     font-family: "FiraSansCondensedItalic";
-    src: url("/home/floeserb/.local/share/fonts/Unknown Vendor/OpenType/Fira Sans Condensed/Fira_Sans_Condensed_Italic.otf");
+    src: url("/home/benedikt/.local/share/fonts/FiraSansCondensed-Italic.otf");
 }
 
 @page {
@@ -29,7 +29,7 @@
     letter-spacing: .3px;
     width: 21cm;
     min-height: 29.7cm;
-    padding-top: 4.5cm;
+    padding-top: 3.5cm;
     padding-left: 2.5cm;
     padding-right: 2cm;
     padding-bottom: 2cm;

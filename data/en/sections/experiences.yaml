@@ -11,6 +11,17 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: "Scandio GmbH"
+    url: "https://www.scandio.de"
+    location: Munich
+
+  positions:
+  - designation: "Software Developer / IT Consultant"
+    start: 10/2022
+    responsibilities:
+      - Develop Software
+
+- company:
     name: "Max-Planck-Institute for Chemical Energy Conversion"
     url: "https://www.cec.mpg.de/"
     location: Mülheim a.d. Ruhr
@@ -19,6 +30,7 @@ experiences:
   positions:
   - designation: Postdoc
     start: 05/2020
+    end: 06/2022
     responsibilities:
       - Planning and execution of quantum chemical calculations
       - Coordination with coworkers and collaborators concerning planning and analysis of experiments and calculations in synergy

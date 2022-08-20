@@ -11,6 +11,17 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: "Scandio GmbH"
+    url: "https://www.scandio.de"
+    location: München
+
+  positions:
+  - designation: "Software Developer / IT Consultant"
+    start: 10/2022
+    responsibilities:
+      - Softwareentwicklung
+
+- company:
     name: "Max-Planck-Institute für chemische Energiekonversion"
     url: "https://www.cec.mpg.de/"
     location: Mülheim a.d. Ruhr

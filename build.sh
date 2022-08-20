@@ -4,4 +4,4 @@
 
 cd `pwd`
 rm -r public 
-hugo --minify && git add -A; git commit -m "$1"; git push github master
+hugo --minify && git add -A; git commit -m "$1"; git push origin master
